@@ -3,6 +3,8 @@
 **Rating Date**: 2026-07-31 (team response update; previous rating 2026-02-18, BB+/785.8)
 **Final Grade**: BBB+
 **Total Score**: 842.2/900 points
+**Product Type**: LST
+**Chain**: Ethereum
 **Framework**: Staking Rewards DeFi Protocol Rating Framework v0.1-gamma
 
 ---
@@ -259,4 +261,15 @@
 | **TOTAL** | | | | | | **842.2** | **900** | **93.6%** |
 
 ---
+
+## Smart Contract Addresses
+
+| Role | Address | Explorer Link |
+|------|---------|---------------|
+| TokenContract (rETH) | 0xae78736Cd615f374D3085123A210448E74Fc6393 | [Etherscan](https://etherscan.io/address/0xae78736Cd615f374D3085123A210448E74Fc6393) |
+| RocketVault (FundsHolder) | 0x3bdc69c4e5e13e52a65f5583c23efb9636b469d6 | [Etherscan](https://etherscan.io/address/0x3bdc69c4e5e13e52a65f5583c23efb9636b469d6) |
+| RocketStorage | 0x1d8f8f00cfa6758d7bE78336684788Fb0ee0Fa46 | [Etherscan](https://etherscan.io/address/0x1d8f8f00cfa6758d7bE78336684788Fb0ee0Fa46) |
+| RocketMinipoolManager | 0x6293B8abC1F36aFB22406Be5f96D893072A8cF3a | [Etherscan](https://etherscan.io/address/0x6293B8abC1F36aFB22406Be5f96D893072A8cF3a) |
+| RocketDAOProtocol | 0x0429Cdd8cEACe24d4dC2B97Ce22A780a407dF0e1 | [Etherscan](https://etherscan.io/address/0x0429Cdd8cEACe24d4dC2B97Ce22A780a407dF0e1) |
+| RocketDepositPool | 0x2cac916b2A963Bf162f076C0a8a4a8200BCFBfb4 | [Etherscan](https://etherscan.io/address/0x2cac916b2A963Bf162f076C0a8a4a8200BCFBfb4) |
 

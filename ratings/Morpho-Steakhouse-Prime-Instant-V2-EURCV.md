@@ -1,8 +1,10 @@
-# Morpho - Steakhouse Prime Instant EURCV V2 Vault Risk Rating
+# Morpho - Steakhouse Prime Instant (V2) EURCV Vault Risk Rating
 
 **Rating Date**: 2026-04-09
 **Final Grade**: BB-
 **Total Score**: 745.6/900 points
+**Product Type**: Vault
+**Chain**: Ethereum
 **Framework**: Staking Rewards DeFi Protocol Rating Framework v0.1-beta
 
 ---
@@ -221,8 +223,8 @@
 |------|----------|----------------|---------|-----------|----------------|----------|
 | O-TL-01 | Are core team and operating entities publicly identified and credible? | Yes. Steakhouse: adcv (co-founder), Sebastien Derivaux (co-founder, former MakerDAO Head of RWA). Morpho: Paul Frambot (CEO). All publicly identified with verifiable backgrounds. | 9 | 9 | Non-Improvable (optimal) | [P1] [Steakhouse](https://www.steakhouse.financial/), [P1] [Morpho](https://morpho.org/) |
 | O-TL-02 | Is the protocol dependent on a single developer or small team? | No. Morpho has full team in Paris (~$73.6M raised). Steakhouse is a separate entity with its own team. Multiple independent parties capable of operations. | 9 | 9 | Non-Improvable (optimal) | [P4] [Tracxn](https://tracxn.com/d/companies/morpho/__5iKpzjF_-EXELsu5bJ6cORHuQN7HD3ItPqKPexS2FVw) |
-| O-TL-03 | What legal entity and jurisdiction operate the protocol and/or assets? | Morpho: ADDMO (French nonprofit) + Morpho Labs SAS (France). Steakhouse: Carniciera Tropical Inc. (Panama) + Steakhouse Financial Ltd (Cayman Islands). All entities clearly identified. | 9 | 9 | Non-Improvable (optimal) | [P1] [Legal Notice](https://morpho.org/legal-notice/), [P2] [Forum](https://forum.morpho.org/t/key-information-on-steakhouse-branded-vaults/1343) |
-| O-TL-04 | Are there known investigations or regulatory actions related to the entity? | No known actions against ADDMO, Morpho Labs, Steakhouse, or Carniciera Tropical in any major jurisdiction. | 9 | 9 | Non-Improvable (optimal) | Public records |
+| O-TL-03 | What legal entity and jurisdiction operate the protocol and/or assets? | Morpho: ADDMO (French nonprofit) + Morpho Labs SAS (France). Steakhouse: Carniceria Tropical Inc. (Panama) + Steakhouse Financial Ltd (Cayman Islands). All entities clearly identified. | 9 | 9 | Non-Improvable (optimal) | [P1] [Legal Notice](https://morpho.org/legal-notice/), [P2] [Forum](https://forum.morpho.org/t/key-information-on-steakhouse-branded-vaults/1343) |
+| O-TL-04 | Are there known investigations or regulatory actions related to the entity? | No known actions against ADDMO, Morpho Labs, Steakhouse, or Carniceria Tropical in any major jurisdiction. | 9 | 9 | Non-Improvable (optimal) | Public records |
 | O-TL-05 | Is there an on-call and incident response process for core teams? | Partial. Monitoring bots + Chainalysis confirmed. April 2025 incident shows rapid 4-minute response. However, no public 24/7 on-call SLA, formal incident runbook, or response SLA documentation. Vault uses automated allocation (V2 allocators) but no documented procedure to halt automated capital flows during incidents. | 3 | 9 | **Source Missing** | [P1] [Security Framework](https://morpho.org/blog/morpho-blue-security-framework-building-the-most-secure-lending-protocol/) |
 | O-TL-06 | Does the team provide timely support for critical user or integrator issues? | Yes. April 2025: 4-minute response. Active Discord community. Steakhouse publishes regular Kitchen newsletter. | 9 | 9 | Non-Improvable (optimal) | [P1] [Incident Report](https://morpho.org/blog/morpho-app-incident-april-10-2025/) |
 | O-TL-07 | Are major investors or strategic partners disclosed? | Yes. a16z, Variant Fund, Pantera Capital, Coinbase Ventures (29 investors total, $73.6M raised). | 9 | 9 | Non-Improvable (optimal) | [P4] [Tracxn](https://tracxn.com/d/companies/morpho/__5iKpzjF_-EXELsu5bJ6cORHuQN7HD3ItPqKPexS2FVw) |
@@ -305,4 +307,19 @@
 | **TOTAL** | | | | **745.6** | **900** | **82.8%** |
 
 ---
+
+## Smart Contract Addresses
+
+| Role | Address | Explorer Link |
+|------|---------|---------------|
+| VaultContract | 0xbeef0C075Da5D01112AE5cF34d257074fB5DDB2f | https://etherscan.io/address/0xbeef0C075Da5D01112AE5cF34d257074fB5DDB2f |
+| V1Adapter | 0xE85175298011C788011C49380E0729B04B368aBE | https://etherscan.io/address/0xE85175298011C788011C49380E0729B04B368aBE |
+| V1Vault | 0x75741A12B36D181f44F389E0c6B1E0210311e3Ff | https://etherscan.io/address/0x75741A12B36D181f44F389E0c6B1E0210311e3Ff |
+| MorphoBlue | 0xBBBBBBBBbb9cc5e90e3b3Af64bdAF62C37EEFFCb | https://etherscan.io/address/0xBBBBBBBBbb9cc5e90e3b3Af64bdAF62C37EEFFCb |
+| OwnerDAO | 0xE67d850dE6E6Fc913fb613573dc00d3Ba863C099 | https://etherscan.io/address/0xE67d850dE6E6Fc913fb613573dc00d3Ba863C099 |
+| Sentinel | 0xb239fde1ef31641BEB75E3A89C335Ab7aC4b0115 | https://etherscan.io/address/0xb239fde1ef31641BEB75E3A89C335Ab7aC4b0115 |
+| V1OwnerMultisig | 0x0A0e559bc3b0950a7e448F0d4894db195b9cf8DD | https://etherscan.io/address/0x0A0e559bc3b0950a7e448F0d4894db195b9cf8DD |
+| CuratorMultisig | 0x827e86072B06674a077f592A531dcE4590aDeCdB | https://etherscan.io/address/0x827e86072B06674a077f592A531dcE4590aDeCdB |
+| EURCV Token | 0x5F7827FDeb7c20b443265Fc2F40845B715385Ff2 | https://etherscan.io/address/0x5F7827FDeb7c20b443265Fc2F40845B715385Ff2 |
+| TreasuryMultisig | 0xcBa28b38103307Ec8dA98377ffF9816C164f9AFa | https://etherscan.io/address/0xcBa28b38103307Ec8dA98377ffF9816C164f9AFa |
 

@@ -3,7 +3,9 @@
 **Rating Date**: 2026-02-12
 **Final Grade**: CCC
 **Total Score**: 509.9/900 points
-**Framework**: Staking Rewards DeFi Protocol Rating Framework v0.1-alpha
+**Product Type**: LST
+**Chain**: Ethereum
+**Framework**: Staking Rewards DeFi Protocol Rating Framework v0.1-gamma
 
 ---
 
@@ -279,4 +281,11 @@ Potential Operations: 67.5 + 61.1 + 67.5 + 55.5 = 251.6/270 (93.2%)
 | **TOTAL** | | **83** | **76** | **7** | | | **509.9** | **900** | **56.7%** |
 
 ---
+
+## Smart Contract Addresses
+
+| Role | Address | Explorer Link |
+|------|---------|---------------|
+| TokenContract (cbETH proxy) | 0xBe9895146f7AF43049ca1c1AE358B0541Ea49704 | [Etherscan](https://etherscan.io/address/0xBe9895146f7AF43049ca1c1AE358B0541Ea49704) |
+| Implementation (StakedTokenV1) | 0x31724cA0C982A31fBb5C57f4217AB585271FC9a5 | [Etherscan](https://etherscan.io/address/0x31724cA0C982A31fBb5C57f4217AB585271FC9a5) |
 

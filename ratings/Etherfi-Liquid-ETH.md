@@ -1,8 +1,10 @@
 # Ether.fi - Liquid ETH Yield Vault Risk Rating
 
-**Rating Date**: 2026-04-29
+**Rating Date**: 2026-04-29 (synced to published rating; previous internal rating 2026-03-04, BB+/789.7)
 **Final Grade**: BB-
 **Total Score**: 753.2/900 points
+**Product Type**: Vault
+**Chain**: Ethereum
 **Framework**: Staking Rewards DeFi Protocol Rating Framework v0.1-gamma
 
 ---
@@ -49,6 +51,7 @@
 **Key Management Subtotal:**
 - 8 questions: 5 x 9 + 3 x 3 = 54/72
 - Adjusted: (54/72) x 180 = **135.0/180 (75.0%)**
+- Potential: (72/72) x 180 = 180.0/180 (S-KM-03, S-KM-04 and S-KM-08 all Improvable to 9)
 
 ---
 
@@ -205,6 +208,7 @@
 **Team & Legal Subtotal:**
 - 9 questions: 8 x 9 + 1 x 3 = 75/81
 - Adjusted: (75/81) x 67.5 = **62.5/67.5 (92.6%)**
+- Potential: (81/81) x 67.5 = 67.5/67.5 (O-TL-05 Improvable to 9)
 
 ---
 
@@ -222,6 +226,7 @@
 **Documentation Subtotal:**
 - 6 questions: 5 x 9 + 1 x 3 = 48/54
 - Adjusted: (48/54) x 67.5 = **60.0/67.5 (88.9%)**
+- Potential: (54/54) x 67.5 = 67.5/67.5 (O-DT-04 Improvable to 9)
 
 ---
 
@@ -238,6 +243,7 @@
 **Financial Resilience Subtotal:**
 - 5 questions: 1 x 9 + 4 x 3 = 21/45
 - Adjusted: (21/45) x 67.5 = **31.5/67.5 (46.7%)**
+- Potential: (39/45) x 67.5 = 58.5/67.5 (O-FR-01, O-FR-02 and O-FR-03 carry a path to 9; O-FR-04 is Non-Improvable)
 
 ---
 
@@ -264,6 +270,18 @@
 | | Documentation | 6 | 0 | 48 | 54 | 60.0 | 67.5 | 88.9% |
 | | Financial Resilience | 5 | 0 | 21 | 45 | 31.5 | 67.5 | 46.7% |
 | | **Operations Subtotal** | | | | | **210.3** | **270** | **77.9%** |
-| **TOTAL** | | **82** | **1** | | | **753.2** | **900** | **83.7%** |
+| **TOTAL** | | **82** | **4** | | | **753.2** | **900** | **83.7%** |
 
 ---
+
+## Smart Contract Addresses
+
+| Role | Address | Explorer Link |
+|------|---------|---------------|
+| VaultContract (BoringVault) | 0xf0bb20865277aBd641a307eCe5ee04E79073416C | [Etherscan](https://etherscan.io/address/0xf0bb20865277aBd641a307eCe5ee04E79073416C) |
+| Teller | 0x9AA79C84b79816ab920bBcE20f8f74557B514734 | [Etherscan](https://etherscan.io/address/0x9AA79C84b79816ab920bBcE20f8f74557B514734) |
+| Treasury1 | 0x7D4bBE471369a066186c18bAF33622796A08d5Cd | [Etherscan](https://etherscan.io/address/0x7D4bBE471369a066186c18bAF33622796A08d5Cd) |
+| Treasury2 | 0x7A6A41F353B3002751d94118aA7f4935dA39bB53 | [Etherscan](https://etherscan.io/address/0x7A6A41F353B3002751d94118aA7f4935dA39bB53) |
+| Treasury3 | 0x5f0E7A424d306e9E310be4f5Bb347216e473Ae55 | [Etherscan](https://etherscan.io/address/0x5f0E7A424d306e9E310be4f5Bb347216e473Ae55) |
+| Treasury4 | 0xD022d6bb8B6C1C357ec77D930Dc6A0aD40FFC90b | [Etherscan](https://etherscan.io/address/0xD022d6bb8B6C1C357ec77D930Dc6A0aD40FFC90b) |
+

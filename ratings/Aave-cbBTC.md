@@ -3,7 +3,9 @@
 **Rating Date**: 2026-04-01
 **Final Grade**: BBB+
 **Total Score**: 842.3/900 points
-**Framework**: Staking Rewards DeFi Protocol Rating Framework v0.1-beta
+**Product Type**: Lending
+**Chain**: Ethereum
+**Framework**: Staking Rewards DeFi Protocol Rating Framework v0.1-gamma
 
 ---
 
@@ -270,4 +272,17 @@ Note: 41.667 + 31.667 + 35.0 + 45.0 + 45.0 + 45.0 = 243.334; rounded subcategory
 | **TOTAL** | | | | **842.3** | **900** | **93.6%** |
 
 ---
+
+## Smart Contract Addresses
+
+| Role | Address | Explorer Link |
+|------|---------|---------------|
+| LendingPool | 0x87870Bca3F3fD6335C3F4ce8392D69350B4fA4E2 | https://etherscan.io/address/0x87870bca3f3fd6335c3f4ce8392d69350b4fa4e2 |
+| aEthcbBTC | 0x5c647cE0Ae10658ec44FA4E11A51c96e94efd1Dd | https://etherscan.io/address/0x5c647cE0Ae10658ec44FA4E11A51c96e94efd1Dd |
+| variableDebtcbBTC | 0xeB284A70557EFe3591b9e6D9D720040E02c54a4d | https://etherscan.io/address/0xeB284A70557EFe3591b9e6D9D720040E02c54a4d |
+| Oracle (cbBTC - BTC/USD) | 0xb41E773f507F7a7EA890b1afB7d2b660c30C8B0A | https://etherscan.io/address/0xb41E773f507F7a7EA890b1afB7d2b660c30C8B0A |
+| cbBTC Token (FiatTokenProxy) | 0xcbB7C0000aB88B473b1f5aFd9ef808440eed33Bf | https://etherscan.io/address/0xcbb7c0000ab88b473b1f5afd9ef808440eed33bf |
+| PoolConfigurator | 0x64b761D848206f447Fe2dd461b0c635Ec39EbB27 | https://etherscan.io/address/0x64b761D848206f447Fe2dd461b0c635Ec39EbB27 |
+| PoolAddressesProvider | 0x2f39d218133AFaB8F2B819B1066c7E434Ad94E9e | https://etherscan.io/address/0x2f39d218133AFaB8F2B819B1066c7E434Ad94E9e |
+| ACLManager | 0xc2aaCf6553D20d1e9d78E365AAba8032af9c85b0 | https://etherscan.io/address/0xc2aaCf6553D20d1e9d78E365AAba8032af9c85b0 |
 

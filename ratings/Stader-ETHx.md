@@ -3,6 +3,8 @@
 **Rating Date**: 2026-05-12
 **Final Grade**: B+
 **Total Score**: 725.7/900 points
+**Product Type**: LST
+**Chain**: Ethereum
 **Framework**: Staking Rewards DeFi Protocol Rating Framework v0.1-gamma
 
 ---
@@ -262,6 +264,24 @@
 | | Financial Resilience (5 Q) | 27 | 45 | 40.5 | 67.5 | 60.0% |
 | | **Operations Subtotal** | | | **201.75** | **270** | **74.7%** |
 | **TOTAL** | | | | **725.7** | **900** | **80.6%** |
+
+---
+
+## Smart Contract Addresses
+
+| Role | Address | Explorer Link |
+|------|---------|---------------|
+| TokenContract (ETHx Token) | 0xA35b1B31Ce002FBF2058D22F30f95D405200A15b | [Etherscan](https://etherscan.io/address/0xA35b1B31Ce002FBF2058D22F30f95D405200A15b) |
+| StakingPoolManager | 0xcf5EA1b38380f6aF39068375516Daf40Ed70D299 | [Etherscan](https://etherscan.io/address/0xcf5EA1b38380f6aF39068375516Daf40Ed70D299) |
+| UserWithdrawalManager | 0x9F0491B32DBce587c50c4C43AB303b06478193A7 | [Etherscan](https://etherscan.io/address/0x9F0491B32DBce587c50c4C43AB303b06478193A7) |
+| Oracle | 0xF64bAe65f6f2a5277571143A24FaaFDFC0C2a737 | [Etherscan](https://etherscan.io/address/0xF64bAe65f6f2a5277571143A24FaaFDFC0C2a737) |
+| StaderConfig | 0x4ABEF2263d5A5ED582FC9A9789a41D85b68d69DB | [Etherscan](https://etherscan.io/address/0x4ABEF2263d5A5ED582FC9A9789a41D85b68d69DB) |
+| GovernanceMultisig (Community 6-of-9) | 0x45B977CeCB9Dfaa17dFcBa88826ef684b8489fF6 | [Etherscan](https://etherscan.io/address/0x45B977CeCB9Dfaa17dFcBa88826ef684b8489fF6) |
+| EmergencyAdmin (Manager 3-of-5) | 0xAAfb31780e4b9c95Bc920e388f4925A874cd07AF | [Etherscan](https://etherscan.io/address/0xAAfb31780e4b9c95Bc920e388f4925A874cd07AF) |
+| PermissionlessPool | 0xd1a72Bd052e0d65B7c26D3dd97A98B74AcbBb6c5 | [Etherscan](https://etherscan.io/address/0xd1a72Bd052e0d65B7c26D3dd97A98B74AcbBb6c5) |
+| PermissionedPool | 0x09134C643A6B95D342BdAf081Fa473338F066572 | [Etherscan](https://etherscan.io/address/0x09134C643A6B95D342BdAf081Fa473338F066572) |
+| SDCollateral | 0x7Af4730cc8EbAd1a050dcad5c03c33D2793EE91f | [Etherscan](https://etherscan.io/address/0x7Af4730cc8EbAd1a050dcad5c03c33D2793EE91f) |
+| SD Token | 0x30D20208d987713f46DFD34EF128Bb16C404D10f | [Etherscan](https://etherscan.io/address/0x30D20208d987713f46DFD34EF128Bb16C404D10f) |
 
 ---
 

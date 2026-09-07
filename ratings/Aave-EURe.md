@@ -3,6 +3,8 @@
 **Rating Date**: 2026-04-03
 **Final Grade**: BB+
 **Total Score**: 794.0/900 points
+**Product Type**: Lending
+**Chain**: Gnosis
 **Framework**: Staking Rewards DeFi Protocol Rating Framework v0.1-beta
 
 ---
@@ -180,7 +182,7 @@
 
 ---
 
-### **Strategy Total: 195.1/270 (72.3%)**
+### **Strategy Total:**
 
 | Subcategory | Current | Max | Current % |
 |-------------|---------|-----|-----------|
@@ -308,3 +310,20 @@
 | **TOTAL** | | | | **794.0** | **900** | **88.2%** |
 
 ---
+
+## Smart Contract Addresses
+
+| Role | Address | Explorer Link |
+|------|---------|---------------|
+| LendingPool | 0xb50201558B00496A145fE76f7424749556E326D8 | [GnosisScan](https://gnosisscan.io/address/0xb50201558B00496A145fE76f7424749556E326D8) |
+| PoolAddressesProvider | 0x36616cf17557639614c1cdDb356b1B83fc0B2132 | [GnosisScan](https://gnosisscan.io/address/0x36616cf17557639614c1cdDb356b1B83fc0B2132) |
+| PoolConfigurator | 0x7304979ec9E4EaA0273b6A037a31c4e9e5A75D16 | [GnosisScan](https://gnosisscan.io/address/0x7304979ec9E4EaA0273b6A037a31c4e9e5A75D16) |
+| ACLManager | 0xEc710f59005f48703908bC519D552Df5B8472614 | [GnosisScan](https://gnosisscan.io/address/0xEc710f59005f48703908bC519D552Df5B8472614) |
+| Oracle | 0xeb0a051be10228213BAEb449db63719d6742F7c4 | [GnosisScan](https://gnosisscan.io/address/0xeb0a051be10228213BAEb449db63719d6742F7c4) |
+| aGnoEURe | 0xEdBC7449a9b594CA4E053D9737EC5Dc4CbCcBfb2 | [GnosisScan](https://gnosisscan.io/address/0xEdBC7449a9b594CA4E053D9737EC5Dc4CbCcBfb2) |
+| variableDebtEURe | 0xb96404e475f337A7E98e4a541C9b71309BB66c5A | [GnosisScan](https://gnosisscan.io/address/0xb96404e475f337A7E98e4a541C9b71309BB66c5A) |
+| EURe V1 (deprecated) | 0xcB444e90D8198415266c6a2724b7900fb12FC56E | [GnosisScan](https://gnosisscan.io/address/0xcB444e90D8198415266c6a2724b7900fb12FC56E) |
+| EURe V2 | 0x420CA0f9B9b604cE0fd9C18EF134C705e5Fa3430 | [GnosisScan](https://gnosisscan.io/address/0x420CA0f9B9b604cE0fd9C18EF134C705e5Fa3430) |
+| EURe/USD Oracle (Chainlink) | 0xab70BCB260073d036d1660201e9d5405F5829b7a | [GnosisScan](https://gnosisscan.io/address/0xab70BCB260073d036d1660201e9d5405F5829b7a) |
+| EURe Interest Rate Strategy | 0x4cE496f0a390745102540faF041EF92FfD588b44 | [GnosisScan](https://gnosisscan.io/address/0x4cE496f0a390745102540faF041EF92FfD588b44) |
+

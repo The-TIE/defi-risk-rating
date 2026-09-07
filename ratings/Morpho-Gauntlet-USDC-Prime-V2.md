@@ -3,6 +3,8 @@
 **Rating Date**: 2026-06-23
 **Final Grade**: BB
 **Total Score**: 778.0/900 points
+**Product Type**: Vault
+**Chain**: Ethereum
 **Framework**: Staking Rewards DeFi Protocol Rating Framework v0.1-gamma
 
 ---
@@ -286,4 +288,16 @@
 *Total = 323.2 + 229.8 + 225.0 = 778.0.*
 
 ---
+
+## Smart Contract Addresses
+
+| Role | Address | Explorer Link |
+|------|---------|---------------|
+| VaultContract | 0x8c106EEDAd96553e64287A5A6839c3Cc78afA3D0 | [Etherscan](https://etherscan.io/address/0x8c106EEDAd96553e64287A5A6839c3Cc78afA3D0) |
+| OwnerMultisig | 0xC684c6587712e5E7BDf9fD64415F23Bd2b05fAec | [Etherscan](https://etherscan.io/address/0xC684c6587712e5E7BDf9fD64415F23Bd2b05fAec) |
+| CuratorMultisig | 0x9E33faAE38ff641094fa68c65c2cE600b3410585 | [Etherscan](https://etherscan.io/address/0x9E33faAE38ff641094fa68c65c2cE600b3410585) |
+| Sentinel (Safe 3-of-7) | 0x7084bF4dB6c21e1834dD6482f6056a39A33584cD | [Etherscan](https://etherscan.io/address/0x7084bF4dB6c21e1834dD6482f6056a39A33584cD) |
+| Sentinel (EOA) | 0xaFFCc769CE1bbd3a0779798eF568794A511D13c0 | [Etherscan](https://etherscan.io/address/0xaFFCc769CE1bbd3a0779798eF568794A511D13c0) |
+| MarketV1Adapter | 0xDF62f57Ea333a842Db200d4892c90F98204fa22F | [Etherscan](https://etherscan.io/address/0xDF62f57Ea333a842Db200d4892c90F98204fa22F) |
+| VaultV2Factory | 0xA1D94F746dEfa1928926b84fB2596c06926C0405 | [Etherscan](https://etherscan.io/address/0xA1D94F746dEfa1928926b84fB2596c06926C0405) |
 

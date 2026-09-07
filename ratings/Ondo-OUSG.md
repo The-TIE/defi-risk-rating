@@ -3,7 +3,9 @@
 **Rating Date**: 2026-03-13
 **Final Grade**: CCC+
 **Total Score**: 587.4/900 points
-**Framework**: Staking Rewards DeFi Protocol Rating Framework v1.0-alpha
+**Product Type**: Vault
+**Chain**: Ethereum
+**Framework**: Staking Rewards DeFi Protocol Rating Framework v0.1-gamma
 
 ---
 
@@ -220,3 +222,17 @@
 | **TOTAL** | | **83** | **72** | **11** | | | **587.4** | **900** | **65.3%** |
 
 ---
+
+## Smart Contract Addresses
+
+| Role | Address | Explorer Link |
+|------|---------|---------------|
+| VaultContract (OUSG Token Proxy) | 0x1B19C19393e2d034D8Ff31ff34c81252FcBbee92 | [Etherscan](https://etherscan.io/address/0x1B19C19393e2d034D8Ff31ff34c81252FcBbee92) |
+| OUSG Implementation | 0x1ceb44b6e515abf009e0ccb6ddafd723886cf3ff | [Etherscan](https://etherscan.io/address/0x1ceb44b6e515abf009e0ccb6ddafd723886cf3ff) |
+| ProxyAdmin | 0xba80aa44cc25e85cc30359150dfb1c7d041cf6d5 | [Etherscan](https://etherscan.io/address/0xba80aa44cc25e85cc30359150dfb1c7d041cf6d5) |
+| GovernanceMultisig (ProxyAdmin Owner / Management) | 0xaed4caf2e535d964165b4392342f71bac77e8367 | [Etherscan](https://etherscan.io/address/0xaed4caf2e535d964165b4392342f71bac77e8367) |
+| OUSG Manager | 0xF16c188c2D411627d39655A60409eC6707D3d5e8 | [Etherscan](https://etherscan.io/address/0xF16c188c2D411627d39655A60409eC6707D3d5e8) |
+| OUSG Instant Manager | 0x2826989983e3a66f0622132d019c2ae173eb6a43 | [Etherscan](https://etherscan.io/address/0x2826989983e3a66f0622132d019c2ae173eb6a43) |
+| OUSG Instant Manager 2 | 0x93358db73b6cd4b98d89c8f5f230e81a95c2643a | [Etherscan](https://etherscan.io/address/0x93358db73b6cd4b98d89c8f5f230e81a95c2643a) |
+| OUSG Holdings 1 (BUIDL holdings) | 0x72Be8C14B7564f7a61ba2f6B7E50D18DC1D4B63D | [Etherscan](https://etherscan.io/address/0x72Be8C14B7564f7a61ba2f6B7E50D18DC1D4B63D) |
+

@@ -3,7 +3,9 @@
 **Rating Date**: 2026-02-13
 **Final Grade**: BB+
 **Total Score**: 801.2/900 points
-**Framework**: Staking Rewards DeFi Protocol Rating Framework v1.0-alpha
+**Product Type**: Lending
+**Chain**: Ethereum
+**Framework**: Staking Rewards DeFi Protocol Rating Framework v0.1-gamma
 
 ---
 
@@ -300,3 +302,17 @@
 | **TOTAL** | | **801.2** | **900** | **893.3** |
 
 ---
+
+## Smart Contract Addresses
+
+| Role | Address | Explorer Link |
+|------|---------|---------------|
+| LendingPool (SparkLend) | 0xC13e21B648A5Ee794902342038FF3aDAB66BE987 | [Etherscan](https://etherscan.io/address/0xC13e21B648A5Ee794902342038FF3aDAB66BE987) |
+| PoolAddressesProvider | 0x02C3eA4e34C0cBd694D2adFa2c690EECbC1793eE | [Etherscan](https://etherscan.io/address/0x02C3eA4e34C0cBd694D2adFa2c690EECbC1793eE) |
+| ACLManager | 0xdA135Cd78A086025BcdC87B038a1C462032b510C | [Etherscan](https://etherscan.io/address/0xdA135Cd78A086025BcdC87B038a1C462032b510C) |
+| Oracle | 0x8105f69D9C41644c6A0803fDA7D03Aa70996cFD9 | [Etherscan](https://etherscan.io/address/0x8105f69D9C41644c6A0803fDA7D03Aa70996cFD9) |
+| GovernanceExecutor | 0x3300f198988e4C9C63F75dF86De36421f06af8c4 | [Etherscan](https://etherscan.io/address/0x3300f198988e4C9C63F75dF86De36421f06af8c4) |
+| SparkLendFreezerMultisig | 0x44efFc473e81632B12486866AA1678edbb7BEeC3 | [Etherscan](https://etherscan.io/address/0x44efFc473e81632B12486866AA1678edbb7BEeC3) |
+| SparkFoundationMultisig | 0x92e4629a4510AF5819d7D1601464C233599fF5ec | [Etherscan](https://etherscan.io/address/0x92e4629a4510AF5819d7D1601464C233599fF5ec) |
+| Treasury | 0xb137E7d16564c81ae2b0C8ee6B55De81dd46ECe5 | [Etherscan](https://etherscan.io/address/0xb137E7d16564c81ae2b0C8ee6B55De81dd46ECe5) |
+

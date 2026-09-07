@@ -3,6 +3,8 @@
 **Rating Date**: 2026-04-29
 **Final Grade**: CCC-
 **Total Score**: 471.7/900 points
+**Product Type**: Vault
+**Chain**: Ethereum
 **Framework**: Staking Rewards DeFi Protocol Rating Framework v0.1-gamma
 
 ---
@@ -278,4 +280,19 @@
 | **TOTAL** | | | | **471.7** | **900** | **52.4%** |
 
 ---
+
+## Smart Contract Addresses
+
+| Role | Address | Explorer Link |
+|------|---------|---------------|
+| VaultContract | 0x6a37725ca7f4CE81c004c955f7280d5C704a249e | [Etherscan](https://etherscan.io/address/0x6a37725ca7f4CE81c004c955f7280d5C704a249e) |
+| Oracle | 0xAda1f4c24603aB2fe5aBd35BCD12370e98A20358 | [Etherscan](https://etherscan.io/address/0xAda1f4c24603aB2fe5aBd35BCD12370e98A20358) |
+| ShareManager | 0xBBFC8683C8fE8cF73777feDE7ab9574935fea0A4 | [Etherscan](https://etherscan.io/address/0xBBFC8683C8fE8cF73777feDE7ab9574935fea0A4) |
+| FeeManager | 0xed4Fac879eE86F3aB0101993A3713e7cAA0488E1 | [Etherscan](https://etherscan.io/address/0xed4Fac879eE86F3aB0101993A3713e7cAA0488E1) |
+| RiskManager | 0xa2a4C4ecE27229aF51c546844AB752824Ccb557e | [Etherscan](https://etherscan.io/address/0xa2a4C4ecE27229aF51c546844AB752824Ccb557e) |
+| Timelock | 0x363Ba8843d06BA5968f55C26aB055162eDd62189 | [Etherscan](https://etherscan.io/address/0x363Ba8843d06BA5968f55C26aB055162eDd62189) |
+| Subvault_0 | 0xC5901C2481ca9C26398A9Da258b13717894bfebF | [Etherscan](https://etherscan.io/address/0xC5901C2481ca9C26398A9Da258b13717894bfebF) |
+| Subvault_1 | 0x7F515C80fA4C1FCFF34F0329141A9C3b20468FE5 | [Etherscan](https://etherscan.io/address/0x7F515C80fA4C1FCFF34F0329141A9C3b20468FE5) |
+| RedeemQueue_wstETH | 0x095bFAca9f1c6F2B063Cd67C6d6bfcd0c3aaB7b4 | [Etherscan](https://etherscan.io/address/0x095bFAca9f1c6F2B063Cd67C6d6bfcd0c3aaB7b4) |
+| OracleSubmitter | 0xFbD83f7C531D35D99392a5A20bb5F1e75E97076e | [Etherscan](https://etherscan.io/address/0xFbD83f7C531D35D99392a5A20bb5F1e75E97076e) |
 

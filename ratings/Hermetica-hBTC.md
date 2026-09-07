@@ -3,7 +3,9 @@
 **Rating Date**: 2026-03-23
 **Final Grade**: CCC-
 **Total Score**: 481.2/900 points
-**Framework**: Staking Rewards DeFi Protocol Rating Framework v0.1-alpha
+**Product Type**: Vault
+**Chain**: Stacks
+**Framework**: Staking Rewards DeFi Protocol Rating Framework v0.1-gamma
 
 ---
 
@@ -275,6 +277,17 @@
 
 **Current Grade**: CCC- (481.2/900 points -- within 420-500 range)
 **Potential Grade**: BB+ (793.4/900 points) -- achievable if all improvements made
+
+---
+
+## Smart Contract Addresses
+
+| Role | Address | Explorer Link |
+|------|---------|---------------|
+| GovernanceMultisig (Owner/Guardian) | SM1QXYXZG78DCWJZJKY0901KTK3350071W9YYRPMT | https://explorer.hiro.so/address/SM1QXYXZG78DCWJZJKY0901KTK3350071W9YYRPMT |
+| Operator (Trader/Manager/Rewarder) | SP20V8SG811G6CT2QMZQNX6XCN20YAX36DYD1BAE0 | https://explorer.hiro.so/address/SP20V8SG811G6CT2QMZQNX6XCN20YAX36DYD1BAE0 |
+
+**Note:** The hBTC vault contract address itself is not publicly documented in a canonical registry. Only governance and operator addresses were found in documentation.
 
 ---
 

@@ -3,7 +3,9 @@
 **Rating Date**: 2026-03-26
 **Final Grade**: BB-
 **Total Score**: 751.5/900 points
-**Framework**: Staking Rewards DeFi Protocol Rating Framework v0.1-beta
+**Product Type**: Vault
+**Chain**: Ethereum
+**Framework**: Staking Rewards DeFi Protocol Rating Framework v0.1-gamma
 
 ---
 
@@ -38,7 +40,7 @@
 
 #### Key Management & Permissions (20% weight, 180 max points)
 
-**NOTE: Key Management scores are IDENTICAL to the Steakhouse USDC rating. Smokehouse vaults are curated by the same entity (Carniciera Tropical Inc.) with the same Owner multisig (0x0A0e...8DD, 5-of-8 Safe), same Curator multisig (0x827e...CdB, 2-of-5 Safe), and the same non-custodial Morpho Blue architecture. The Guardian is a separate Aragon DAO per vault (Smokehouse: 0x94aa...A27D3). The only difference is the timelock duration (3 days vs 7 days), which is captured under O-G-03 in Governance, not in this section. All multisig configurations verified on-chain via Safe Transaction Service API on 2026-03-10.**
+**NOTE: Key Management scores are IDENTICAL to the Steakhouse USDC rating. Smokehouse vaults are curated by the same entity (Carniceria Tropical Inc.) with the same Owner multisig (0x0A0e...8DD, 5-of-8 Safe), same Curator multisig (0x827e...CdB, 2-of-5 Safe), and the same non-custodial Morpho Blue architecture. The Guardian is a separate Aragon DAO per vault (Smokehouse: 0x94aa...A27D3). The only difference is the timelock duration (3 days vs 7 days), which is captured under O-G-03 in Governance, not in this section. All multisig configurations verified on-chain via Safe Transaction Service API on 2026-03-10.**
 
 | Code | Question | Answer Summary | Current | Potential | Classification | Evidence |
 |------|----------|----------------|---------|-----------|----------------|----------|
@@ -235,8 +237,8 @@
 |------|----------|----------------|---------|-----------|----------------|----------|
 | O-TL-01 | Are core team and operating entities publicly identified and credible? | Yes. Steakhouse: adcv (co-founder, former M&A/investment banking), Sebastien Derivaux (co-founder, former MakerDAO Head of RWA). Morpho: Paul Frambot (CEO), Merlin Egalite, Mathis Gontier Delaunay. All publicly identified with verifiable professional backgrounds. | 9 | 9 | Non-Improvable (optimal) | [P1] [Steakhouse](https://www.steakhouse.financial/), [P1] [Morpho](https://morpho.org/) |
 | O-TL-02 | Is the protocol dependent on a single developer or small team? | No. Morpho has a full team in Paris (ADDMO + Morpho Labs SAS, ~$73.6M raised, 29 investors). Steakhouse Financial is a separate entity with its own team. Multiple independent parties capable of vault operations. | 9 | 9 | Non-Improvable (optimal) | [P4] [Tracxn](https://tracxn.com/d/companies/morpho/__5iKpzjF_-EXELsu5bJ6cORHuQN7HD3ItPqKPexS2FVw) |
-| O-TL-03 | What legal entity and jurisdiction operate the protocol and/or assets? | Morpho: ADDMO (French nonprofit, W751263773, 24 rue de Clichy, 75009 Paris) + Morpho Labs SAS (France, RCS 902 498 492). Steakhouse: Carniciera Tropical Inc. (Panama) + Steakhouse Financial Ltd (Cayman Islands). All entities clearly identified with registration numbers. | 9 | 9 | Non-Improvable (optimal) | [P1] [Legal Notice](https://morpho.org/legal-notice/), [P2] [Forum](https://forum.morpho.org/t/key-information-on-steakhouse-branded-vaults/1343) |
-| O-TL-04 | Are there known investigations or regulatory actions related to the entity? | No known ongoing or past material enforcement actions against ADDMO, Morpho Labs, Steakhouse Financial, or Carniciera Tropical in any major jurisdiction. Morpho nonprofit structure reduces regulatory risk. | 9 | 9 | Non-Improvable (optimal) | Public records |
+| O-TL-03 | What legal entity and jurisdiction operate the protocol and/or assets? | Morpho: ADDMO (French nonprofit, W751263773, 24 rue de Clichy, 75009 Paris) + Morpho Labs SAS (France, RCS 902 498 492). Steakhouse: Carniceria Tropical Inc. (Panama) + Steakhouse Financial Ltd (Cayman Islands). All entities clearly identified with registration numbers. | 9 | 9 | Non-Improvable (optimal) | [P1] [Legal Notice](https://morpho.org/legal-notice/), [P2] [Forum](https://forum.morpho.org/t/key-information-on-steakhouse-branded-vaults/1343) |
+| O-TL-04 | Are there known investigations or regulatory actions related to the entity? | No known ongoing or past material enforcement actions against ADDMO, Morpho Labs, Steakhouse Financial, or Carniceria Tropical in any major jurisdiction. Morpho nonprofit structure reduces regulatory risk. | 9 | 9 | Non-Improvable (optimal) | Public records |
 | O-TL-05 | Is there an on-call and incident response process for core teams? | Partial evidence. Monitoring bots + Chainalysis partnership confirmed. April 2025 incident demonstrates rapid response capability (4-minute rollback). February 2025 Bybit hack: bbqUSDC automatic reallocation within 90 minutes. However, no public 24/7 on-call SLA, formal incident runbook, or response SLA documentation found for either Morpho or Steakhouse. | 3 | 9 | **Source Missing** | [P1] [Security Framework](https://morpho.org/blog/morpho-blue-security-framework-building-the-most-secure-lending-protocol/), [P2] [Bybit Response](https://forum.morpho.org/t/bybit-incident-response/1544) |
 | O-TL-06 | Does the team provide timely support for critical user or integrator issues? | Yes. April 2025 vulnerability: 4-minute rollback. November 2025 stress: Steakhouse publicly addressed concerns on Twitter within hours, providing clear guidance differentiating Prime (liquidity available) from High Yield (may experience illiquidity). February 2025 Bybit: governance forum post with detailed response. Active Substack updates (Kitchen newsletter). | 9 | 9 | Non-Improvable (optimal) | [P4] [Steakhouse Twitter](https://x.com/SteakhouseFi/status/1985620465650381093), [P2] [Bybit Response](https://forum.morpho.org/t/bybit-incident-response/1544) |
 | O-TL-07 | Are major investors or strategic partners disclosed? | Yes. Morpho: a16z, Variant Fund, Pantera Capital, Coinbase Ventures, Ribbit Capital (29 investors total, $73.6M raised). Roles and influence clearly described. Steakhouse: venture-backed entity with disclosed partnerships. | 9 | 9 | Non-Improvable (optimal) | [P4] [Tracxn](https://tracxn.com/d/companies/morpho/__5iKpzjF_-EXELsu5bJ6cORHuQN7HD3ItPqKPexS2FVw) |
@@ -327,4 +329,14 @@
 | **TOTAL** | | **751.5** | **900** | **835.0** |
 
 ---
+
+## Smart Contract Addresses
+
+| Role | Address | Explorer Link |
+|------|---------|---------------|
+| VaultContract | 0xBEeFFF209270748ddd194831b3fa287a5386f5bC | [Etherscan](https://etherscan.io/address/0xBEeFFF209270748ddd194831b3fa287a5386f5bC) |
+| MorphoBlue | 0xBBBBBBBBbb9cc5e90e3b3Af64bdAF62C37EEFFCb | [Etherscan](https://etherscan.io/address/0xBBBBBBBBbb9cc5e90e3b3Af64bdAF62C37EEFFCb) |
+| OwnerMultisig | 0x0A0e559bc3b0950a7e448F0d4894db195b9cf8DD | [Etherscan](https://etherscan.io/address/0x0A0e559bc3b0950a7e448F0d4894db195b9cf8DD) |
+| GuardianDAO | 0x94aa34975987119197e53e760AF1ee5aC80A27D3 | [Etherscan](https://etherscan.io/address/0x94aa34975987119197e53e760AF1ee5aC80A27D3) |
+| CuratorMultisig | 0x827e86072B06674a077f592A531dcE4590aDeCdB | [Etherscan](https://etherscan.io/address/0x827e86072B06674a077f592A531dcE4590aDeCdB) |
 

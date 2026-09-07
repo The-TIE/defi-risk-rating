@@ -3,6 +3,8 @@
 **Rating Date**: 2026-04-29
 **Final Grade**: CCC+
 **Total Score**: 635.25/900 points
+**Product Type**: Vault
+**Chain**: Ethereum
 **Framework**: Staking Rewards DeFi Protocol Rating Framework v0.1-gamma
 
 ---
@@ -288,6 +290,31 @@
 | | Financial Resilience (5 Q) | 27 | 45 | 40.5 | 67.5 | 60.0% |
 | | **Operations Subtotal** | | | **189.25** | **270** | **70.1%** |
 | **TOTAL** | | | | **635.25** | **900** | **70.6%** |
+
+---
+
+## Smart Contract Addresses
+
+| Role | Address | Explorer Link |
+|------|---------|---------------|
+| VaultContract | 0x014e6DA8F283C4aF65B2AA0f201438680A004452 | [Etherscan](https://etherscan.io/address/0x014e6DA8F283C4aF65B2AA0f201438680A004452) |
+| ShareManager (earnUSD Token) | 0x4Ce1ac8F43E0E5BD7A346A98aF777bF8fbeA1981 | [Etherscan](https://etherscan.io/address/0x4Ce1ac8F43E0E5BD7A346A98aF777bF8fbeA1981) |
+| Oracle | 0x827044735c9708a2cf850e7Ea37EBa43bc786028 | [Etherscan](https://etherscan.io/address/0x827044735c9708a2cf850e7Ea37EBa43bc786028) |
+| TimelockController | 0xdA6Da82DFF8cD29D828e4775Cc003f504A968845 | [Etherscan](https://etherscan.io/address/0xdA6Da82DFF8cD29D828e4775Cc003f504A968845) |
+| FeeManager | 0x72fa23f40e08eB9E45953233b2Dd9665E347e8Dc | [Etherscan](https://etherscan.io/address/0x72fa23f40e08eB9E45953233b2Dd9665E347e8Dc) |
+| RiskManager | 0x7b1e06C46d4510277FC37a37bBeF65F3794fdDE4 | [Etherscan](https://etherscan.io/address/0x7b1e06C46d4510277FC37a37bBeF65F3794fdDE4) |
+| CuratorSafe | 0x9745F161b0160a99924845BeFCE1d7b9Daee6899 | [Etherscan](https://etherscan.io/address/0x9745F161b0160a99924845BeFCE1d7b9Daee6899) |
+| AdminMultisig | 0x0Dd73341d6158a72b4D224541f1094188f57076E | [Etherscan](https://etherscan.io/address/0x0Dd73341d6158a72b4D224541f1094188f57076E) |
+| Subvault0 | 0x77B9441d5Cb89fca435190A9B6D108ad4B00ccFd | [Etherscan](https://etherscan.io/address/0x77B9441d5Cb89fca435190A9B6D108ad4B00ccFd) |
+| Verifier0 | 0xB65A8E0937c77a76C3f4F86A1110f81A299CB481 | [Etherscan](https://etherscan.io/address/0xB65A8E0937c77a76C3f4F86A1110f81A299CB481) |
+| DepositQueue_USDC | 0xC75E7E73B25fEa8bB23EB55CC48BA55067b5be76 | [Etherscan](https://etherscan.io/address/0xC75E7E73B25fEa8bB23EB55CC48BA55067b5be76) |
+| RedeemQueue_USDC | 0x9e36A74FE278906a76e7615263e46a83fC40c47F | [Etherscan](https://etherscan.io/address/0x9e36A74FE278906a76e7615263e46a83fC40c47F) |
+| DepositQueue_USDT | 0xEeC5041c47Cba1e31321AC6941Bf09Ad60645B73 | [Etherscan](https://etherscan.io/address/0xEeC5041c47Cba1e31321AC6941Bf09Ad60645B73) |
+| MetaTreasury | 0xcCf2daba8Bb04a232a2fDA0D01010D4EF6C69B85 | [Etherscan](https://etherscan.io/address/0xcCf2daba8Bb04a232a2fDA0D01010D4EF6C69B85) |
+| OracleSubmitter | 0xB105DaEeFEb1390ce49172c99E3e12C607367156 | [Etherscan](https://etherscan.io/address/0xB105DaEeFEb1390ce49172c99E3e12C607367156) |
+| LidoAragonAgent | 0x3e40D73EB977Dc6a537aF587D48316feE66E9C8c | [Etherscan](https://etherscan.io/address/0x3e40D73EB977Dc6a537aF587D48316feE66E9C8c) |
+| EmergencyProtectedTimelock | 0xCE0425301C85c5Ea2A0873A2dEe44d78E02D2316 | [Etherscan](https://etherscan.io/address/0xCE0425301C85c5Ea2A0873A2dEe44d78E02D2316) |
+| DualGovernance | 0xC1db28B3301331277e307FDCfF8DE28242A4486E | [Etherscan](https://etherscan.io/address/0xC1db28B3301331277e307FDCfF8DE28242A4486E) |
 
 ---
 

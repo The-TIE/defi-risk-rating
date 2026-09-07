@@ -3,7 +3,9 @@
 **Rating Date**: 2026-02-19
 **Final Grade**: A
 **Total Score**: 858.5/900 points
-**Framework**: Staking Rewards DeFi Protocol Rating Framework v1.0-alpha
+**Product Type**: Lending
+**Chain**: Ethereum
+**Framework**: Staking Rewards DeFi Protocol Rating Framework v0.1-gamma
 
 ---
 
@@ -245,4 +247,39 @@
 | | **Operations Subtotal** | **256.0** | **270** | **270.0** |
 | **TOTAL** | | **858.5** | **900** | **893.3** |
 
+**Validation Checklist:**
+- Smart Contract Security: 11 questions x 9 = 99; Raw 99/99; Weighted (99/99) x 180 = 180.0 -- VERIFIED
+- Key Management: 6x9 + 1x3 = 57; 1 N/A; Raw 57/63; Weighted (57/63) x 180 = 162.857 = 162.9 -- VERIFIED
+- Security Total: 180.0 + 162.9 = 342.9 -- VERIFIED
+- Protocol Mechanics: 9 questions x 9 = 81; Raw 81/81; Weighted (81/81) x 45 = 45.0 -- VERIFIED
+- Collateral: 4 questions x 9 = 36; Raw 36/36; Weighted (36/36) x 45 = 45.0 -- VERIFIED
+- Infra Counterparty: 7x9 + 1x3 = 66; Raw 66/72; Weighted (66/72) x 45 = 41.25 -- VERIFIED
+- Protocol Counterparty: 5 questions x 9 = 45; Raw 45/45; Weighted (45/45) x 45 = 45.0 -- VERIFIED
+- Liquidity: 7x9 + 2x3 = 69; Raw 69/81; Weighted (69/81) x 45 = 38.333 = 38.3 -- VERIFIED
+- Market: 5 questions x 9 = 45; Raw 45/45; Weighted (45/45) x 45 = 45.0 -- VERIFIED
+- Strategy Total: 45.0 + 45.0 + 41.25 + 45.0 + 38.3 + 45.0 = 259.55 = 259.6 -- VERIFIED
+- Governance: 3x9 = 27; 1 N/A; Raw 27/27; Weighted (27/27) x 67.5 = 67.5 -- VERIFIED
+- Team & Legal: 8x9 + 1x3 = 75; Raw 75/81; Weighted (75/81) x 67.5 = 62.5 -- VERIFIED
+- Documentation: 6x9 = 54; Raw 54/54; Weighted (54/54) x 67.5 = 67.5 -- VERIFIED
+- Financial Resilience: 4x9 + 1x3 = 39; Raw 39/45; Weighted (39/45) x 67.5 = 58.5 -- VERIFIED
+- Operations Total: 67.5 + 62.5 + 67.5 + 58.5 = 256.0 -- VERIFIED
+- **Grand Total: 342.9 + 259.6 + 256.0 = 858.5** -- VERIFIED
+
+*Final calculation:*
+- Security (40%): 342.9/360 = 95.2%
+- Strategy (30%): 259.6/270 = 96.1%
+- Operations (30%): 256.0/270 = 94.8%
+- **Total: 858.5/900 = 95.4%**
+
 ---
+
+## Smart Contract Addresses
+
+| Role | Address | Explorer Link |
+|------|---------|---------------|
+| FundsHolder | 0x87870Bca3F3fD6335C3F4ce8392D69350B4fA4E2 | https://etherscan.io/address/0x87870bca3f3fd6335c3f4ce8392d69350b4fa4e2 |
+| aWETH | 0x4d5F47FA6A74757f35C14fD3a6Ef8E3C9BC514E8 | https://etherscan.io/address/0x4d5f47fa6a74757f35c14fd3a6ef8e3c9bc514e8 |
+| PoolConfigurator | 0x64b761D848206f447Fe2dd461b0c635Ec39EbB27 | https://etherscan.io/address/0x64b761D848206f447Fe2dd461b0c635Ec39EbB27 |
+| PoolAddressesProvider | 0x2f39d218133AFaB8F2B819B1066c7E434Ad94E9e | https://etherscan.io/address/0x2f39d218133AFaB8F2B819B1066c7E434Ad94E9e |
+| ACLManager | 0xc2aaCf6553D20d1e9571216fA22D988C6Ceddd42 | https://etherscan.io/address/0xc2aaCf6553D20d1e9571216fA22D988C6Ceddd42 |
+

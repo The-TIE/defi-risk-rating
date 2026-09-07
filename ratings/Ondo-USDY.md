@@ -3,7 +3,9 @@
 **Rating Date**: 2026-03-13
 **Final Grade**: CCC+
 **Total Score**: 581.4/900 points
-**Framework**: Staking Rewards DeFi Protocol Rating Framework v1.0-alpha
+**Product Type**: Vault
+**Chain**: Ethereum
+**Framework**: Staking Rewards DeFi Protocol Rating Framework v0.1-gamma
 
 ---
 
@@ -220,3 +222,18 @@
 | **TOTAL** | | **83** | **72** | **11** | | | **581.4** | **900** | **64.6%** |
 
 ---
+
+## Smart Contract Addresses
+
+| Role | Address | Explorer Link |
+|------|---------|---------------|
+| VaultContract (USDY Token Proxy) | 0x96F6eF951840721AdBF46Ac996b59E0235CB985C | [Etherscan](https://etherscan.io/address/0x96F6eF951840721AdBF46Ac996b59E0235CB985C) |
+| USDY Implementation | 0xea0f7eebdc2ae40edfe33bf03d332f8a7f617528 | [Etherscan](https://etherscan.io/address/0xea0f7eebdc2ae40edfe33bf03d332f8a7f617528) |
+| ProxyAdmin | 0x3ed61633057da0bc58f84b2b9002845e56f94c19 | [Etherscan](https://etherscan.io/address/0x3ed61633057da0bc58f84b2b9002845e56f94c19) |
+| GovernanceMultisig (ProxyAdmin Owner) | 0x1a694a09494e214a3be3652e4b343b7b81a73ad7 | [Etherscan](https://etherscan.io/address/0x1a694a09494e214a3be3652e4b343b7b81a73ad7) |
+| GovernanceMultisig (Management) | 0xaed4caf2e535d964165b4392342f71bac77e8367 | [Etherscan](https://etherscan.io/address/0xaed4caf2e535d964165b4392342f71bac77e8367) |
+| USDY Manager | 0x25A103A1D6AeC5967c1A4fe2039cdc514886b97e | [Etherscan](https://etherscan.io/address/0x25A103A1D6AeC5967c1A4fe2039cdc514886b97e) |
+| Oracle (USDY Redemption Price) | 0xa0219aa5b31e65bc920b5b6dfb8edf0988121de0 | [Etherscan](https://etherscan.io/address/0xa0219aa5b31e65bc920b5b6dfb8edf0988121de0) |
+| Registry (Allowlist) | 0x7cE91291846502D50D635163135B2d40a602dc70 | [Etherscan](https://etherscan.io/address/0x7cE91291846502D50D635163135B2d40a602dc70) |
+| Blocklist | 0xd8c8174691d936E2C80114EC449037b13421B0a8 | [Etherscan](https://etherscan.io/address/0xd8c8174691d936E2C80114EC449037b13421B0a8) |
+

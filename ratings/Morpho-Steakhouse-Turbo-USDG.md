@@ -3,6 +3,8 @@
 **Rating Date**: 2026-07-22
 **Final Grade**: CCC
 **Total Score**: 557.7/900 points
+**Product Type**: Vault
+**Chain**: Robinhood Chain
 **Framework**: Staking Rewards DeFi Protocol Rating Framework v0.1-gamma
 
 ---
@@ -313,4 +315,18 @@
 | **TOTAL** | | | | **557.70** | **900** | **62.0%** |
 
 ---
+
+## Smart Contract Addresses
+
+| Role | Address | Explorer Link |
+|------|---------|---------------|
+| VaultContract | 0xbeEfFF136E3684273e6aA75A1669B784B373A4FD | [hoodexplorer](https://www.hoodexplorer.org/address/0xbeEfFF136E3684273e6aA75A1669B784B373A4FD) |
+| Owner (Supervisor, 14-day timelock) | 0x261a3b7a37904b45e57ae14206314ccf4bbcf2b1 | [hoodexplorer](https://www.hoodexplorer.org/address/0x261a3b7a37904b45e57ae14206314ccf4bbcf2b1) |
+| Supervisor Owner (5-of-10 Safe) | 0xd062020d07facf39b5a06c34b07d81c43f615ef4 | [hoodexplorer](https://www.hoodexplorer.org/address/0xd062020d07facf39b5a06c34b07d81c43f615ef4) |
+| Curator (3-of-7 Safe) | 0x9023FBD6A08C666491A2d1648737E400cF42D2Fb | [hoodexplorer](https://www.hoodexplorer.org/address/0x9023FBD6A08C666491A2d1648737E400cF42D2Fb) |
+| Sentinel (1-of-7 Safe) | 0x5642BCd50fC751fF2d04f155423e4D0E25C2a744 | [hoodexplorer](https://www.hoodexplorer.org/address/0x5642BCd50fC751fF2d04f155423e4D0E25C2a744) |
+| BoxAdapter (leverage, ~90% of NAV) | 0xec1f17758a4656cc4deae264ead1f6d83c6bea29 | [hoodexplorer](https://www.hoodexplorer.org/address/0xec1f17758a4656cc4deae264ead1f6d83c6bea29) |
+| Box Turbo USDG child vault (leverage engine) | 0x3e35b42b20ae940e3b8a1aa40766100aeef13ee7 | [hoodexplorer](https://www.hoodexplorer.org/address/0x3e35b42b20ae940e3b8a1aa40766100aeef13ee7) |
+| Morpho Market V1 adapter (repo liquidity, ~10%) | 0xda889f343359ca9766381080f1bf505458bb2513 | [hoodexplorer](https://www.hoodexplorer.org/address/0xda889f343359ca9766381080f1bf505458bb2513) |
+| USDG Token (base asset) | 0x5fc5360D0400a0Fd4f2af552ADD042D716F1d168 | [hoodexplorer](https://www.hoodexplorer.org/address/0x5fc5360D0400a0Fd4f2af552ADD042D716F1d168) |
 

@@ -3,7 +3,9 @@
 **Rating Date**: 2026-03-16
 **Final Grade**: BBB+
 **Total Score**: 843.9/900 points
-**Framework**: Staking Rewards DeFi Protocol Rating Framework v0.1-beta
+**Product Type**: Lending
+**Chain**: Ethereum
+**Framework**: Staking Rewards DeFi Protocol Rating Framework v0.1-gamma
 
 ---
 
@@ -282,4 +284,16 @@
 | **TOTAL** | | **843.9** | **900** | **882.5** |
 
 ---
+
+## Smart Contract Addresses
+
+| Role | Address | Explorer Link |
+|------|---------|---------------|
+| LendingPool | 0x87870Bca3F3fD6335C3F4ce8392D69350B4fA4E2 | https://etherscan.io/address/0x87870bca3f3fd6335c3f4ce8392d69350b4fa4e2 |
+| aEthwstETH | 0x0B925eD163218f6662a35e0f0371Ac234f9E9371 | https://etherscan.io/address/0x0B925eD163218f6662a35e0f0371Ac234f9E9371 |
+| wstETH Token | 0x7f39C581F595B53c5cb19bD0b3f8dA6c935E2Ca0 | https://etherscan.io/address/0x7f39C581F595B53c5cb19bD0b3f8dA6c935E2Ca0 |
+| PoolConfigurator | 0x64b761D848206f447Fe2dd461b0c635Ec39EbB27 | https://etherscan.io/address/0x64b761D848206f447Fe2dd461b0c635Ec39EbB27 |
+| PoolAddressesProvider | 0x2f39d218133AFaB8F2B819B1066c7E434Ad94E9e | https://etherscan.io/address/0x2f39d218133AFaB8F2B819B1066c7E434Ad94E9e |
+| ACLManager | 0xc2aaCf6553D20d1e9571216fA22D988C6Ceddd42 | https://etherscan.io/address/0xc2aaCf6553D20d1e9571216fA22D988C6Ceddd42 |
+| Collector | 0x464C71f6c2F760DdA6093dCB91C24c39e5d6e18c | https://etherscan.io/address/0x464C71f6c2F760DdA6093dCB91C24c39e5d6e18c |
 

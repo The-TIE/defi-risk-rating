@@ -3,6 +3,8 @@
 **Rating Date**: 2026-05-26
 **Final Grade**: B
 **Total Score**: 706.3/900 points
+**Product Type**: Lending
+**Chain**: Ethereum
 **Framework**: Staking Rewards DeFi Protocol Rating Framework v0.1-gamma
 
 ---
@@ -246,4 +248,22 @@
 | **TOTAL** | | | | **706.30** | **900** | **78.48%** |
 
 ---
+
+## Smart Contract Addresses
+
+| Role | Address | Explorer Link |
+|------|---------|---------------|
+| LendingPool | 0x9Fb7b4477576Fe5B32be4C1843aFB1e55F251B33 | https://etherscan.io/address/0x9Fb7b4477576Fe5B32be4C1843aFB1e55F251B33 |
+| LiquidityLayer (Proxy) | 0x52Aa899454998Be5b000Ad077a46Bbe360F4e497 | https://etherscan.io/address/0x52Aa899454998Be5b000Ad077a46Bbe360F4e497 |
+| LiquidityLayer (Implementation) | 0xCc331daf69752bece3dc98dbc63eacd5092266a2 | https://etherscan.io/address/0xCc331daf69752bece3dc98dbc63eacd5092266a2 |
+| AdminModule | 0x53EFFA0e612d88f39Ab32eb5274F2fae478d261C | https://etherscan.io/address/0x53EFFA0e612d88f39Ab32eb5274F2fae478d261C |
+| UserModule | 0x2e4015880367b7C2613Df77f816739D97A8C46aD | https://etherscan.io/address/0x2e4015880367b7C2613Df77f816739D97A8C46aD |
+| LendingFactory | 0x54B91A0D94cb471F37f949c60F7Fa7935b551D03 | https://etherscan.io/address/0x54B91A0D94cb471F37f949c60F7Fa7935b551D03 |
+| LiquidityResolver | 0xca13A15de31235A37134B4717021C35A3CF25C60 | https://etherscan.io/address/0xca13A15de31235A37134B4717021C35A3CF25C60 |
+| LendingResolver | 0x48D32f49aFeAEC7AE66ad7B9264f446fc11a1569 | https://etherscan.io/address/0x48D32f49aFeAEC7AE66ad7B9264f446fc11a1569 |
+| RatesAuth | 0x1e6B029284dc2779F8FfBD83a3a5aA00EdCE6ba4 | https://etherscan.io/address/0x1e6B029284dc2779F8FfBD83a3a5aA00EdCE6ba4 |
+| WithdrawLimitAuth | 0x82a2a351aaE9c35e7ca17d05367cbA533cAa21D7 | https://etherscan.io/address/0x82a2a351aaE9c35e7ca17d05367cbA533cAa21D7 |
+| LimitsAuth | 0x38f099E69F76978E195712727A1858C6c63335aa | https://etherscan.io/address/0x38f099E69F76978E195712727A1858C6c63335aa |
+| LiquidityLayer Admin | 0x4F6F977aCDD1177DCD81aB83074855EcB9C2D49e | https://etherscan.io/address/0x4F6F977aCDD1177DCD81aB83074855EcB9C2D49e |
+| TreasuryMultisig | 0x28849D2b63fA8D361e5fc15cB8aBB13019884d09 | https://etherscan.io/address/0x28849D2b63fA8D361e5fc15cB8aBB13019884d09 |
 

@@ -317,3 +317,20 @@
 
 ---
 
+## Smart Contract Addresses
+
+| Role | Address | Explorer Link |
+|------|---------|---------------|
+| VaultContract | 0xBeEff033F34C046626B8D0A041844C5d1A5409dd | [hoodexplorer](https://www.hoodexplorer.org/address/0xBeEff033F34C046626B8D0A041844C5d1A5409dd) |
+| Owner (Supervisor contract, 14-day ownership timelock; verified 2026-08-09) | 0xCa50D23F1c18C1Dfaff5d3cae3aa4B9dC5C8db73 | [hoodexplorer](https://www.hoodexplorer.org/address/0xCa50D23F1c18C1Dfaff5d3cae3aa4B9dC5C8db73) |
+| Supervisor Owner (MPC wallet, Morpho-confirmed; direct vault Owner at original 2026-07-22 rating) | 0x337feFE49514fb901eB455A501b8Be76CDeF7660 | [hoodexplorer](https://www.hoodexplorer.org/address/0x337feFE49514fb901eB455A501b8Be76CDeF7660) |
+| Guardian (EOA, registered on Supervisor) | 0x8fadb7fcc26a6aad705147097b165b6b8e766e75 | [hoodexplorer](https://www.hoodexplorer.org/address/0x8fadb7fcc26a6aad705147097b165b6b8e766e75) |
+| Sentinel (1-of-7 Safe) | 0x5642BCd50fC751fF2d04f155423e4D0E25C2a744 | [hoodexplorer](https://www.hoodexplorer.org/address/0x5642BCd50fC751fF2d04f155423e4D0E25C2a744) |
+| LiquidityAdapter (MarketV1) | 0x44ABc1d6cCFF2696d98890B92E2157AF242179c2 | [hoodexplorer](https://www.hoodexplorer.org/address/0x44ABc1d6cCFF2696d98890B92E2157AF242179c2) |
+| USDG Token (loan asset) | 0x5fc5360D0400a0Fd4f2af552ADD042D716F1d168 | [hoodexplorer](https://www.hoodexplorer.org/address/0x5fc5360D0400a0Fd4f2af552ADD042D716F1d168) |
+| Oracle: USDe/USDG (EIP-1167 proxy to MetaOracleDeviationTimelock) | 0xE64849bd4AD03DfaBbe02bb521de19997a19055f | [hoodexplorer](https://www.hoodexplorer.org/address/0xE64849bd4AD03DfaBbe02bb521de19997a19055f) |
+| Oracle impl: MetaOracleDeviationTimelock | 0x6A16d6fe1bA26E6BA52fdA03972b1FE2e31cA729 | [hoodexplorer](https://www.hoodexplorer.org/address/0x6A16d6fe1bA26E6BA52fdA03972b1FE2e31cA729) |
+| Oracle: USDe/USD backup feed (live, Chainlink-style) | 0xd9B1f2958298F25bf1289B5aaB7fB6d1B7416c95 | [hoodexplorer](https://www.hoodexplorer.org/address/0xd9B1f2958298F25bf1289B5aaB7fB6d1B7416c95) |
+| Oracle: syrupUSDG/USDG (exchange-rate) | 0x152c638fad68913739Ee19Ba8eF47fAEB09DCa91 | [hoodexplorer](https://www.hoodexplorer.org/address/0x152c638fad68913739Ee19Ba8eF47fAEB09DCa91) |
+| Oracle: spUSDG/USDG (exchange-rate) | 0xe694c531F65c4BaBc88A52d7178476e095e51574 | [hoodexplorer](https://www.hoodexplorer.org/address/0xe694c531F65c4BaBc88A52d7178476e095e51574) |
+

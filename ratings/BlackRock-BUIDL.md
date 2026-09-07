@@ -3,7 +3,9 @@
 **Rating Date**: 2026-02-19
 **Final Grade**: CCC+
 **Total Score**: 630.4/900 points
-**Framework**: Staking Rewards DeFi Protocol Rating Framework v1.0-alpha
+**Product Type**: Vault
+**Chain**: Ethereum
+**Framework**: Staking Rewards DeFi Protocol Rating Framework v0.1-gamma
 
 ---
 
@@ -216,3 +218,12 @@
 | **TOTAL** | | **83** | **71** | **12** | | | **630.4** | **900** | **70.0%** |
 
 ---
+
+## Smart Contract Addresses
+
+| Role | Address | Explorer Link |
+|------|---------|---------------|
+| TokenContract (BUIDL proxy / DSToken) | 0x7712c34205737192402172409a8F7CcEF8aA2AEc | [Etherscan](https://etherscan.io/address/0x7712c34205737192402172409a8F7CcEF8aA2AEc) |
+| DSToken Implementation | 0x603Bb6909be14f83282e03632280d91be7fb83b2 | [Etherscan](https://etherscan.io/address/0x603Bb6909be14f83282e03632280d91be7fb83b2) |
+| BUIDL-I Token | 0x6a9DA2D710BB9B700acde7Cb81F10F1fF8C89041 | [Etherscan](https://etherscan.io/address/0x6a9DA2D710BB9B700acde7Cb81F10F1fF8C89041) |
+

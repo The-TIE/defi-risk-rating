@@ -2,14 +2,16 @@
 
 **Rating Date**: 2026-02-11
 **Final Grade**: BB
-**Total Score**: 763.9/900 points
-**Framework**: Staking Rewards DeFi Protocol Rating Framework v1.0-alpha
+**Total Score**: 774.8/900 points
+**Product Type**: Vault
+**Chain**: Ethereum
+**Framework**: Staking Rewards DeFi Protocol Rating Framework v0.1-gamma
 
 ---
 
 ## Detailed Analysis
 
-### SECURITY (40% Weight) -- Score: 323.2/360 (89.8%)
+### SECURITY (40% Weight) -- Score: 319.1/360 (88.6%)
 
 #### Smart Contract Security (20% weight, 180 max points)
 
@@ -23,14 +25,14 @@
 | S-SC-06 | Has any on-chain exploit or critical bug affecting user funds occurred? | No confirmed exploit causing user fund loss for Spark or spUSDC vault. No incidents found in public reporting. The Sky/MakerDAO ecosystem has operated since 2017 with no major exploits affecting the savings rate mechanism. SparkLend (separate product) has operated since 2023 without exploits. | 9 | 9 | Non-Improvable (optimal) | [P4] No incidents found on rekt.news or crypto news, [P1] Protocol operational since Sep 2025 without loss events |
 | S-SC-07 | Has any confirmed rug-pull event occurred? | No rug-pull events. Spark operates within the Sky/MakerDAO ecosystem with 8+ year history. Phoenix Labs is the publicly identified development team. Governance via SPK token with Spark Risk Council oversight. No credible allegations. | 9 | 9 | Non-Improvable (optimal) | [P1] [Governance docs](https://docs.spark.fi/governance), [P2] Active governance forum |
 | S-SC-08 | Were there reductions to the timelock delay that weaken governance protections? | No evidence of timelock reductions. The governance process requires a structured weekly cycle with mandatory review periods. The ALM Controller uses rate limits as the primary security boundary. No changes identified that weaken protections in the last 12 months. | 9 | 9 | Non-Improvable (optimal) | [P1] [Governance docs](https://docs.spark.fi/governance), [P1] [Rate limits docs](https://github.com/sparkdotfi/spark-alm-controller/blob/dev/docs/RATE_LIMITS.md) |
-| S-SC-09 | Does the protocol run an active bug-bounty via a reputable platform? | Active bug bounty confirmed on Immunefi (immunefi.com/bug-bounty/sparkdao/). Immunefi is an established platform with track record of payouts. The page exists and is accessible (57KB response). However, the maximum payout amount could not be verified from available data. Given inability to confirm >=100k USD max payout, scoring Mid. | 3 | 9 | Source Missing | [P1] [Immunefi SparkDAO](https://immunefi.com/bug-bounty/sparkdao/) confirmed to exist |
+| S-SC-09 | Does the protocol run an active bug-bounty via a reputable platform? | Yes. Active bug bounty on Immunefi (immunefi.com/bug-bounty/sparklend/) since November 1, 2023. Maximum payout $5,000,000 for critical smart contract vulnerabilities (10% of affected funds, min $50K), with High smart contract bugs up to $100K. 349 assets in scope including the Spark Vaults. Triaged by Immunefi (industry-standard reputable platform). Max payout greatly exceeds $100K threshold for Low score. | 9 | 9 | Non-Improvable (optimal) | [P1] [Immunefi SparkLend](https://immunefi.com/bug-bounty/sparklend/information/): $5M max, 349 assets in scope, active since Nov 2023. [P1] [Spark Bug Bounty docs](https://docs.spark.fi/dev/security/bug-bounty-program) |
 | S-SC-10 | Are real-time security monitoring and alerting systems in place? | The architecture includes: (1) FREEZER role for emergency relayer removal, (2) rate limits enforcing invariants on every transaction, (3) sparklend-kill-switch repo for oracle price monitoring and SparkLend shutdown, (4) emergency spell contracts deployed (SPELL_FREEZE_ALL, SPELL_PAUSE_ALL). However, no specific third-party monitoring provider (Hypernative, Blockaid) is named in documentation. No public on-call documentation. | 3 | 9 | Source Missing | [P1] [THREAT_MODEL.md](https://github.com/sparkdotfi/spark-alm-controller/blob/dev/docs/THREAT_MODEL.md), [P0] Emergency spell addresses in spark-address-registry |
 | S-SC-11 | Are automatic safety controls (pause, circuit breakers) triggered by monitoring alerts? | Yes. Rate limits on the ALM Controller automatically enforce bounds on every operation -- objective, on-chain, rule-based constraints that prevent excessive fund movement. The sparklend-kill-switch triggers SparkLend freeze on oracle depeg. FREEZER role enables rapid relayer removal. Emergency spells (SPELL_FREEZE_ALL, SPELL_PAUSE_ALL) available for broader protocol freeze. The rate limit system is a stronger automatic control than traditional pause mechanisms. | 9 | 9 | Non-Improvable (optimal) | [P0] Rate limits in MainnetController.sol enforce per-operation bounds, [P1] [RATE_LIMITS.md](https://github.com/sparkdotfi/spark-alm-controller/blob/dev/docs/RATE_LIMITS.md), [P0] Emergency spell addresses |
 
-**Smart Contract Security Subtotal: 158.2/180 (87.9%)**
-- 9 questions scored 9 (sum = 81), 2 questions scored 3 (sum = 6)
-- Raw sum = 87 out of max 99
-- Weighted = (87/99) x 180 = 158.2
+**Smart Contract Security Subtotal: 169.1/180 (93.9%)**
+- 10 questions scored 9 (sum = 90), 1 question scored 3 (sum = 3)
+- Raw sum = 93 out of max 99
+- Weighted = (93/99) x 180 = 169.1
 
 ---
 
@@ -58,13 +60,13 @@
 
 ---
 
-### **Security Total: 308.2/360 (85.6%)**
+### **Security Total: 319.1/360 (88.6%)**
 
 | Subcategory | Current | Max | Current % |
 |-------------|---------|-----|-----------|
-| Smart Contract Security | 158.2 | 180 | 87.9% |
+| Smart Contract Security | 169.1 | 180 | 93.9% |
 | Key Management | 150.0 | 180 | 83.3% |
-| **Security Total** | **308.2** | **360** | **85.6%** |
+| **Security Total** | **319.1** | **360** | **88.6%** |
 
 ---
 
@@ -289,9 +291,9 @@
 
 | Category | Subcategory | Current Points | Max Points | Potential Points |
 |----------|-------------|----------------|------------|------------------|
-| **Security** | Smart Contract Security | 158.2 | 180 | 180.0 |
+| **Security** | Smart Contract Security | 169.1 | 180 | 180.0 |
 | | Key Management | 150.0 | 180 | 180.0 |
-| | **Security Subtotal** | **308.2** | **360** | **360.0** |
+| | **Security Subtotal** | **319.1** | **360** | **360.0** |
 | **Strategy** | Protocol Mechanics | 45.0 | 45 | 45.0 |
 | | Collateral | 35.0 | 45 | 45.0 |
 | | Infra Counterparty | 40.0 | 45 | 45.0 |
@@ -304,6 +306,18 @@
 | | Documentation | 67.5 | 67.5 | 67.5 |
 | | Financial Resilience | 40.5 | 67.5 | 67.5 |
 | | **Operations Subtotal** | **225.4** | **270** | **270.0** |
-| **TOTAL** | | **763.9** | **900** | **894.0** |
+| **TOTAL** | | **774.8** | **900** | **894.0** |
 
 ---
+
+## Smart Contract Addresses
+
+| Role | Address | Explorer Link |
+|------|---------|---------------|
+| VaultContract (spUSDC) | 0x28B3a8fb53B741A8Fd78c0fb9A6B2393d896a43d | [Etherscan](https://etherscan.io/address/0x28B3a8fb53B741A8Fd78c0fb9A6B2393d896a43d) |
+| ALMProxy | 0x1601843c5E9bC251A3272907010AFa41Fa18347E | [Etherscan](https://etherscan.io/address/0x1601843c5E9bC251A3272907010AFa41Fa18347E) |
+| ALMController | 0xc9ff605003A1b389980f650c1aEFA1ef25C8eE32 | [Etherscan](https://etherscan.io/address/0xc9ff605003A1b389980f650c1aEFA1ef25C8eE32) |
+| GovernanceExecutor | 0x3300f198988e4C9C63F75dF86De36421f06af8c4 | [Etherscan](https://etherscan.io/address/0x3300f198988e4C9C63F75dF86De36421f06af8c4) |
+| ALMFreezerMultisig | 0x90D8c80C028B4C09C0d8dcAab9bbB057F0513431 | [Etherscan](https://etherscan.io/address/0x90D8c80C028B4C09C0d8dcAab9bbB057F0513431) |
+| SparkFoundationMultisig | 0x92e4629a4510AF5819d7D1601464C233599fF5ec | [Etherscan](https://etherscan.io/address/0x92e4629a4510AF5819d7D1601464C233599fF5ec) |
+

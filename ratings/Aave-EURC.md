@@ -3,6 +3,8 @@
 **Rating Date**: 2026-04-02
 **Final Grade**: A-
 **Total Score**: 848.5/900 points
+**Product Type**: Lending
+**Chain**: Ethereum
 **Framework**: Staking Rewards DeFi Protocol Rating Framework v0.1-beta
 
 ---
@@ -290,4 +292,16 @@
 | **TOTAL** | | | | **848.5** | **900** | **94.3%** |
 
 ---
+
+## Smart Contract Addresses
+
+| Role | Address | Explorer Link |
+|------|---------|---------------|
+| LendingPool | 0x87870bca3f3fd6335c3f4ce8392d69350b4fa4e2 | [Etherscan](https://etherscan.io/address/0x87870bca3f3fd6335c3f4ce8392d69350b4fa4e2) |
+| PoolAddressesProvider | 0x2f39d218133AFaB8F2B819B1066c7E434Ad94E9e | [Etherscan](https://etherscan.io/address/0x2f39d218133AFaB8F2B819B1066c7E434Ad94E9e) |
+| PoolConfigurator | 0x64b761D848206f447Fe2dd461b0c635Ec39EbB27 | [Etherscan](https://etherscan.io/address/0x64b761D848206f447Fe2dd461b0c635Ec39EbB27) |
+| aEthEURC | 0xAA6e91C82942aeAE040303Bf96c15a6dBcB82CA0 | [Etherscan](https://etherscan.io/address/0xAA6e91C82942aeAE040303Bf96c15a6dBcB82CA0) |
+| EURC Token | 0x1abaea1f7c830bd89acc67ec4af516284b1bc33c | [Etherscan](https://etherscan.io/address/0x1abaea1f7c830bd89acc67ec4af516284b1bc33c) |
+| ACLManager | 0xc2aaCf6553D20d1e9571216fA22D988C3a4f4e60 | [Etherscan](https://etherscan.io/address/0xc2aaCf6553D20d1e9571216fA22D988C3a4f4e60) |
+| Oracle (EURC/USD) | 0x04F84020Fdf10d9ee64D1dcC2986EDF2F556DA11 | [Etherscan](https://etherscan.io/address/0x04F84020Fdf10d9ee64D1dcC2986EDF2F556DA11) |
 

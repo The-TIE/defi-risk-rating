@@ -1,8 +1,10 @@
-# Kelp DAO - rsETH Risk Rating
+# Kelp DAO - rsETH (Liquid Restaking Token) Risk Rating
 
 **Rating Date**: 2026-04-20
 **Final Grade**: D
 **Total Score**: 357.9/900 points (Deal Breaker cap applied)
+**Product Type**: LST
+**Chain**: Ethereum
 **Framework**: Staking Rewards DeFi Protocol Rating Framework v0.1-gamma
 
 ---
@@ -272,4 +274,20 @@
 | **TOTAL** | | | | **357.9** | **900** | **39.8%** |
 
 ---
+
+## Smart Contract Addresses
+
+| Role | Address | Explorer Link |
+|------|---------|---------------|
+| TokenContract | 0xA1290d69c65A6Fe4DF752f95823fae25cB99e5A7 | https://etherscan.io/address/0xA1290d69c65A6Fe4DF752f95823fae25cB99e5A7 |
+| LRTDepositPool | 0x036676389e48133B63a802f8635AD39E752D375D | https://etherscan.io/address/0x036676389e48133B63a802f8635AD39E752D375D |
+| Oracle | 0x349A73444b1a310BAe67ef67973022020d70020d | https://etherscan.io/address/0x349A73444b1a310BAe67ef67973022020d70020d |
+| Timelock | 0x49bD9989E31aD35B0A62c20BE86335196A3135B1 | https://etherscan.io/address/0x49bD9989E31aD35B0A62c20BE86335196A3135B1 |
+| GovernanceMultisig | 0xb3696a817D01C8623E66D156B6798291fa10a46d | https://etherscan.io/address/0xb3696a817D01C8623E66D156B6798291fa10a46d |
+| ProxyAdmin | 0xb61e0E39b6d4030C36A176f576aaBE44BF59Dc78 | https://etherscan.io/address/0xb61e0E39b6d4030C36A176f576aaBE44BF59Dc78 |
+| LRTWithdrawalManager | 0x62De59c08eB5dAE4b7E6F7a8cAd3006d6965ec16 | https://etherscan.io/address/0x62De59c08eB5dAE4b7E6F7a8cAd3006d6965ec16 |
+| LRTUnstakingVault | 0xc66830e2667bc740c0bed9a71f18b14b8c8184ba | https://etherscan.io/address/0xc66830e2667bc740c0bed9a71f18b14b8c8184ba |
+| ChainlinkPriceOracle | 0x78C12ccE8346B936117655Dd3D70a2501Fd3d6e6 | https://etherscan.io/address/0x78C12ccE8346B936117655Dd3D70a2501Fd3d6e6 |
+| NodeDelegator | 0x07b96cf1183c9bff2e43acf0e547a8c4e4429473 | https://etherscan.io/address/0x07b96cf1183c9bff2e43acf0e547a8c4e4429473 |
+| OFTAdapter (Exploited) | 0x85d456B2DfF1fd8245387C0BfB64Dfb700e98Ef3 | https://etherscan.io/address/0x85d456B2DfF1fd8245387C0BfB64Dfb700e98Ef3 |
 

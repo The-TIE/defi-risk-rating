@@ -3,7 +3,9 @@
 **Rating Date**: 2026-03-18
 **Final Grade**: A-
 **Total Score**: 850.6/900 points
-**Framework**: Staking Rewards DeFi Protocol Rating Framework v0.1-alpha
+**Product Type**: Lending
+**Chain**: Ethereum
+**Framework**: Staking Rewards DeFi Protocol Rating Framework v0.1-gamma
 
 ---
 
@@ -263,4 +265,16 @@
 | | Financial Resilience (5 Q) | 39 | 45 | 58.5 | 67.5 | 86.7% |
 | | **Operations Subtotal** | | | **256.0** | **270** | **94.8%** |
 | **TOTAL** | | | | **850.6** | **900** | **94.5%** |
+
+## Smart Contract Addresses
+
+| Role | Address | Explorer Link |
+|------|---------|---------------|
+| LendingPool | 0x87870Bca3F3fD6335C3F4ce8392D69350B4fA4E2 | https://etherscan.io/address/0x87870bca3f3fd6335c3f4ce8392d69350b4fa4e2 |
+| aEthWBTC | 0x5Ee5bf7ae06D1Be5997A1A72006FE6C607eC6DE8 | https://etherscan.io/address/0x5ee5bf7ae06d1be5997a1a72006fe6c607ec6de8 |
+| variableDebtWBTC | 0x40aAbEf1aa8f0eEc637E0E7d92fbfFB2F26A8b7B | https://etherscan.io/address/0x40aAbEf1aa8f0eEc637E0E7d92fbfFB2F26A8b7B |
+| Oracle (WBTC) | 0xDaa4B74C6bAc4e25188e64ebc68DB5050b690cAc | https://etherscan.io/address/0xDaa4B74C6bAc4e25188e64ebc68DB5050b690cAc |
+| PoolConfigurator | 0x64b761D848206f447Fe2dd461b0c635Ec39EbB27 | https://etherscan.io/address/0x64b761D848206f447Fe2dd461b0c635Ec39EbB27 |
+| PoolAddressesProvider | 0x2f39d218133AFaB8F2B819B1066c7E434Ad94E9e | https://etherscan.io/address/0x2f39d218133AFaB8F2B819B1066c7E434Ad94E9e |
+| ACLManager | 0xc2aaCf6553D20d1e9d78E365AAba8032af9c85b0 | https://etherscan.io/address/0xc2aaCf6553D20d1e9d78E365AAba8032af9c85b0 |
 

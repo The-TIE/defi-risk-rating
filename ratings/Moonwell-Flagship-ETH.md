@@ -3,6 +3,8 @@
 **Rating Date**: 2026-05-22
 **Final Grade**: BB
 **Total Score**: 772.6/900 points
+**Product Type**: Vault
+**Chain**: Base
 **Framework**: Staking Rewards DeFi Protocol Rating Framework v0.1-gamma
 
 ---
@@ -240,4 +242,16 @@
 | **TOTAL** | | | | **772.6** | **900** | **85.8%** |
 
 ---
+
+## Smart Contract Addresses
+
+| Role | Address | Explorer Link |
+|------|---------|---------------|
+| VaultContract | 0xa0E430870c4604CcfC7B38Ca7845B1FF653D0ff1 | https://basescan.org/address/0xa0E430870c4604CcfC7B38Ca7845B1FF653D0ff1 |
+| OwnerGovernor | 0x8b621804a7637b781e2BbD58e256a591F2dF7d51 | https://basescan.org/address/0x8b621804a7637b781e2BbD58e256a591F2dF7d51 |
+| GuardianMultisig | 0xB9d4acf113a423Bc4A64110B8738a52E51C2AB38 | https://basescan.org/address/0xB9d4acf113a423Bc4A64110B8738a52E51C2AB38 |
+| CuratorMultisig | 0x08eDEbFFaE68970DCf751baa826182b3a4aCFC05 | https://basescan.org/address/0x08eDEbFFaE68970DCf751baa826182b3a4aCFC05 |
+| MorphoBlue | 0xBBBBBbbBBb9cC5e90e3b3Af64bdAF62C37EEFFCb | https://basescan.org/address/0xBBBBBbbBBb9cC5e90e3b3Af64bdAF62C37EEFFCb |
+| EcosystemReserve | 0x65A633E8E379F9358C389c75ff1D913a92ab95B8 | https://basescan.org/address/0x65A633E8E379F9358C389c75ff1D913a92ab95B8 |
+| Comptroller | 0xfBb21d0380beE3312B33c4353c8936a0F13EF26C | https://basescan.org/address/0xfBb21d0380beE3312B33c4353c8936a0F13EF26C |
 

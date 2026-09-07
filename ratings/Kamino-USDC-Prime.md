@@ -3,7 +3,9 @@
 **Rating Date**: 2026-03-10
 **Final Grade**: B
 **Total Score**: 688.1/900 points
-**Framework**: Staking Rewards DeFi Protocol Rating Framework v1.0-alpha
+**Product Type**: Vault
+**Chain**: Solana
+**Framework**: Staking Rewards DeFi Protocol Rating Framework v0.1-gamma
 
 ---
 
@@ -216,9 +218,9 @@
 
 | Code | Question | Answer Summary | Current | Potential | Classification | Evidence |
 |------|----------|----------------|---------|-----------|----------------|----------|
-| O-TL-01 | Are core team and operating entities publicly identified and credible? | Yes. Kamino: Asaf Meir (CEO, ex-ConsenSys), Tal Zelig (CTO, ex-Bancor), Roy Keyes (COO, ex-Hubble). Kamino Finance headquartered in Panama. Steakhouse Financial: Sebastien Derivaux (Co-Founder, ex-MakerDAO Head of RWF) and Adrian Cachinero Vasiljevic (Co-Founder). Steakhouse Financial Ltd registered in Cayman Islands; Carniciera Tropical Inc. registered in Panama. Both entities have verifiable track records. | 9 | 9 | Non-Improvable (optimal) | [The Org - Kamino](https://theorg.com/org/kamino-finance), [Crunchbase - Derivaux](https://www.crunchbase.com/person/s%C3%A9bastien-derivaux-af07), [Steakhouse](https://www.steakhouse.financial/) |
+| O-TL-01 | Are core team and operating entities publicly identified and credible? | Yes. Kamino: Asaf Meir (CEO, ex-ConsenSys), Tal Zelig (CTO, ex-Bancor), Roy Keyes (COO, ex-Hubble). Kamino Finance headquartered in Panama. Steakhouse Financial: Sebastien Derivaux (Co-Founder, ex-MakerDAO Head of RWF) and Adrian Cachinero Vasiljevic (Co-Founder). Steakhouse Financial Ltd registered in Cayman Islands; Carniceria Tropical Inc. registered in Panama. Both entities have verifiable track records. | 9 | 9 | Non-Improvable (optimal) | [The Org - Kamino](https://theorg.com/org/kamino-finance), [Crunchbase - Derivaux](https://www.crunchbase.com/person/s%C3%A9bastien-derivaux-af07), [Steakhouse](https://www.steakhouse.financial/) |
 | O-TL-02 | Is the protocol dependent on a single developer or small team? | No. Kamino has a full engineering team with 35+ GitHub repos and active development. Steakhouse Financial has a team of crypto-native collaborators across multiple disciplines. Both entities maintain independent operations with no single-person dependency. | 9 | 9 | Non-Improvable (optimal) | [GitHub Kamino](https://github.com/Kamino-Finance), [Steakhouse GitHub](https://github.com/Steakhouse-Financial) |
-| O-TL-03 | What legal entity and jurisdiction operate the protocol and/or assets? | Kamino Finance headquartered in Panama. Steakhouse Financial operates via Carniciera Tropical Inc. (Panama) and Steakhouse Financial Ltd (Cayman Islands). Both jurisdictions and entities clearly identified with mapped operational responsibilities. | 9 | 9 | Non-Improvable (optimal) | [PitchBook - Kamino](https://pitchbook.com/profiles/company/557633-98), [INATBA - Steakhouse](https://inatba.org/steakhouse-financial-limited/) |
+| O-TL-03 | What legal entity and jurisdiction operate the protocol and/or assets? | Kamino Finance headquartered in Panama. Steakhouse Financial operates via Carniceria Tropical Inc. (Panama) and Steakhouse Financial Ltd (Cayman Islands). Both jurisdictions and entities clearly identified with mapped operational responsibilities. | 9 | 9 | Non-Improvable (optimal) | [PitchBook - Kamino](https://pitchbook.com/profiles/company/557633-98), [INATBA - Steakhouse](https://inatba.org/steakhouse-financial-limited/) |
 | O-TL-04 | Are there known investigations or regulatory actions related to the entity? | No enforcement actions found against Kamino Finance or Steakhouse Financial. USDC issuer Circle is fully regulated (NYDFS). No regulatory issues identified for either entity. | 9 | 9 | Non-Improvable (optimal) | Research -- no actions found across major regulatory databases |
 | O-TL-05 | Is there an on-call and incident response process for core teams? | Partial. Risk Council monitors and can pause markets. Steakhouse claims 24/7 monitoring with "redundant real-time controls" and demonstrated real-time response during stress events. However, no formal public on-call SLA, runbook, or incident response process is documented for either Kamino or Steakhouse. | 3 | 9 | **Improvable** | [Steakhouse Twitter](https://x.com/SteakhouseFi/status/1976976208962158617), [KRAF](https://docs.kamino.finance/risk/risk-assessment-framework) |
 | O-TL-06 | Does the team provide timely support for critical user or integrator issues? | Yes. Active Discord, governance forum, and community support channels for both Kamino and Steakhouse. Steakhouse publishes weekly DeFi Markets Updates via Substack with relevant risk information. | 9 | 9 | Non-Improvable (optimal) | [Kamino Forum](https://gov.kamino.finance/), [Steakhouse Kitchen](https://kitchen.steakhouse.financial/) |
@@ -300,3 +302,14 @@
 | **TOTAL** | | | | **688.1** | **900** |
 
 ---
+
+## Smart Contract Addresses
+
+| Role | Address | Explorer Link |
+|------|---------|---------------|
+| VaultContract (USDC Prime) | HDsayqAsDWy3QvANGqh2yNraqcD8Fnjgh73Mhb3WRS5E | [Solscan](https://solscan.io/account/HDsayqAsDWy3QvANGqh2yNraqcD8Fnjgh73Mhb3WRS5E) |
+| LendingPool (Kamino Main Market) | 7u3HeHxYDLhnCoErrtycNokbQYbWGzLs6JSDqGAv5PfF | [Solscan](https://solscan.io/account/7u3HeHxYDLhnCoErrtycNokbQYbWGzLs6JSDqGAv5PfF) |
+| KLendProgram | KLend2g3cP87fffoy8q1mQqGKjrxjC8boSyAYavgmjD | [Solscan](https://solscan.io/account/KLend2g3cP87fffoy8q1mQqGKjrxjC8boSyAYavgmjD) |
+| AdminMultisig | 6hhBGCtmg7tPWUSgp3LG6X2rsmYWAc4tNsA6G4CnfQbM | [Solscan](https://solscan.io/account/6hhBGCtmg7tPWUSgp3LG6X2rsmYWAc4tNsA6G4CnfQbM) |
+| ScopeOracle | GzFgdRJXmawPhGeBsyRCDLx4jAKPsvbUqoqitzppkzkW | [Solscan](https://solscan.io/account/GzFgdRJXmawPhGeBsyRCDLx4jAKPsvbUqoqitzppkzkW) |
+

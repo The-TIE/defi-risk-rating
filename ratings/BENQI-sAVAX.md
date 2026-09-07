@@ -3,6 +3,8 @@
 **Rating Date**: 2026-06-20
 **Final Grade**: CCC
 **Total Score**: 557.7/900 points
+**Product Type**: LST
+**Chain**: Avalanche
 **Framework**: Staking Rewards DeFi Protocol Rating Framework v0.1-gamma
 
 ---
@@ -281,4 +283,15 @@ Potential Operations: Governance 67.5 + Team & Legal 67.5 + Documentation 67.5 +
 > Potential note: Security potential 342.9 + Strategy 262.9 + Operations 252.0 = **857.8/900**, which falls in the A- range (846-858). Authoritative potential grade: **A- (857.8/900)**.
 
 ---
+
+## Smart Contract Addresses
+
+| Role | Address | Explorer Link |
+|------|---------|---------------|
+| TokenContract (sAVAX proxy) | 0x2b2C81e08f1Af8835a78Bb2A90AE924ACE0eA4bE | [Snowtrace](https://snowtrace.io/address/0x2b2C81e08f1Af8835a78Bb2A90AE924ACE0eA4bE) |
+| Implementation (StakedAvax) | 0xB791C7A42FD0D10F90DEaa906a8735f79719FA53 | [Snowtrace](https://snowtrace.io/address/0xB791C7A42FD0D10F90DEaa906a8735f79719FA53) |
+| Oracle (Chainlink sAVAX feed) | 0x2854Ca10a54800e15A2a25cFa52567166434Ff0a | [Snowtrace](https://snowtrace.io/address/0x2854Ca10a54800e15A2a25cFa52567166434Ff0a) |
+| Oracle (Edge sAVAX dual feed) | 0x6A5B3ab3274B738eAB25205aF6e2d4dd77812924 | [Snowtrace](https://snowtrace.io/address/0x6A5B3ab3274B738eAB25205aF6e2d4dd77812924) |
+| GovernanceToken (QI) | 0x8729438EB15e2C8B576fCc6AeCdA6A148776C0F5 | [Snowtrace](https://snowtrace.io/address/0x8729438EB15e2C8B576fCc6AeCdA6A148776C0F5) |
+| Admin/Deployer Contract | 0xb5d72f3e80aC24A26A164ac86234e693195c7d8b | [Snowtrace](https://snowtrace.io/address/0xb5d72f3e80aC24A26A164ac86234e693195c7d8b) |
 

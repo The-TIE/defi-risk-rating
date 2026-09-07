@@ -3,7 +3,9 @@
 **Rating Date**: 2026-02-19
 **Final Grade**: CCC
 **Total Score**: 548.9/900 points
-**Framework**: Staking Rewards DeFi Protocol Rating Framework v1.0-alpha
+**Product Type**: Lending
+**Chain**: HyperEVM
+**Framework**: Staking Rewards DeFi Protocol Rating Framework v0.1-gamma
 
 ---
 
@@ -205,23 +207,51 @@
 
 ## Final Score Calculation
 
-| Category | Subcategory | Current Points | Max Points | Potential Points |
-|----------|-------------|----------------|------------|------------------|
-| **Security** | Smart Contract Security | 147.3 | 180 | 180.0 |
-| | Key Management | 117.1 | 180 | 180.0 |
-| | **Security Subtotal** | **264.4** | **360** | **360.0** |
-| **Strategy** | Protocol Mechanics | 31.7 | 45 | 41.7 |
-| | Collateral | 25.0 | 45 | 35.0 |
-| | Infra Counterparty | 25.0 | 45 | 45.0 |
-| | Protocol Counterparty | 37.5 | 45 | 45.0 |
-| | Liquidity | 25.0 | 45 | 31.7 |
-| | Market | 27.5 | 45 | 45.0 |
-| | **Strategy Subtotal** | **171.7** | **270** | **243.4** |
-| **Operations** | Governance | 22.5 | 67.5 | 67.5 |
-| | Team & Legal | 26.8 | 67.5 | 67.5 |
-| | Documentation | 35.0 | 67.5 | 67.5 |
-| | Financial Resilience | 28.5 | 67.5 | 58.5 |
-| | **Operations Subtotal** | **112.8** | **270** | **261.0** |
-| **TOTAL** | | **548.9** | **900** | **864.4** |
+| Category | Subcategory | Raw Score | Raw Max | Weight Max | Weighted Score |
+|----------|-------------|-----------|---------|------------|----------------|
+| Security | Smart Contract | 81 | 99 | 180 | 147.3 |
+| Security | Key Management | 41 | 63 | 180 | 117.1 |
+| **Security Total** | | | | **360** | **264.4** |
+| Strategy | Protocol Mechanics | 57 | 81 | 45 | 31.7 |
+| Strategy | Collateral | 15 | 27 | 45 | 25.0 |
+| Strategy | Infra Counterparty | 30 | 54 | 45 | 25.0 |
+| Strategy | Protocol Counterparty | 30 | 36 | 45 | 37.5 |
+| Strategy | Liquidity | 45 | 81 | 45 | 25.0 |
+| Strategy | Market | 22 | 36 | 45 | 27.5 |
+| **Strategy Total** | | | | **270** | **171.7** |
+| Operations | Governance | 9 | 27 | 67.5 | 22.5 |
+| Operations | Team & Legal | 25 | 63 | 67.5 | 26.8 |
+| Operations | Documentation | 28 | 54 | 67.5 | 35.0 |
+| Operations | Financial Resilience | 19 | 45 | 67.5 | 28.5 |
+| **Operations Total** | | | | **270** | **112.8** |
+| **GRAND TOTAL** | | | | **900** | **548.9** |
 
----
+**Validation Checks:**
+- Security: 147.3 + 117.1 = 264.4 (73.4% of 360) PASS
+- Strategy: 31.7 + 25.0 + 25.0 + 37.5 + 25.0 + 27.5 = 171.7 (63.6% of 270) PASS
+- Operations: 22.5 + 26.8 + 35.0 + 28.5 = 112.8 (41.8% of 270) PASS
+- Total: 264.4 + 171.7 + 112.8 = 548.9 PASS
+- No percentage exceeds 100% PASS
+- Grade: 548.9 falls in CCC range (500-580) PASS
+
+**Potential Score Calculation:**
+- Security Potential: 180.0 + 180.0 = 360.0
+- Strategy Potential: 41.7 + 35.0 + 45.0 + 45.0 + 31.7 + 45.0 = 243.4
+- Operations Potential: 67.5 + 67.5 + 67.5 + 58.5 = 261.0
+- Total Potential: 360.0 + 243.4 + 261.0 = 864.4
+
+**Current Grade**: CCC (548.9/900)
+**Potential Grade**: A (864.4/900)
+
+## Smart Contract Addresses
+
+| Role | Address | Explorer Link |
+|------|---------|---------------|
+| FundsHolder | 0x00A89d7a5A02160f20150EbEA7a2b5E4879A1A8b | https://hyperscan.com/address/0x00A89d7a5A02160f20150EbEA7a2b5E4879A1A8b |
+| GovernanceMultisig | 0x2110E7B8e925C387A88259CEac9bd82c47868E9C | https://hyperevmscan.io/address/0x2110E7B8e925C387A88259CEac9bd82c47868E9C |
+| EmergencyAdmin | 0xC2A0F2c78dd7E37C82aA3A8e37fc712a3ddb7cAc | https://hyperevmscan.io/address/0xC2A0F2c78dd7E37C82aA3A8e37fc712a3ddb7cAc |
+| TreasuryMultisig | 0xCBF400610DBF462fE316D8A7db6Ba78d57E43d7b | https://hyperscan.com/address/0xCBF400610DBF462fE316D8A7db6Ba78d57E43d7b |
+| TimelockA | 0xaAaaaAAAa810beD1EDA93A18FEC940857ED17879 | https://hyperevmscan.io/address/0xaAaaaAAAa810beD1EDA93A18FEC940857ED17879 |
+| PoolAddressesProvider | 0x72c98246a98bFe64022a3190e7710E157497170C | https://hyperscan.com/address/0x72c98246a98bFe64022a3190e7710E157497170C |
+| ACLManager | 0x10914Ee2C2dd3F3dEF9EFFB75906CA067700a04A | https://hyperscan.com/address/0x10914Ee2C2dd3F3dEF9EFFB75906CA067700a04A |
+

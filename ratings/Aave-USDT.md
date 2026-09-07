@@ -3,13 +3,17 @@
 **Rating Date**: 2026-02-19
 **Final Grade**: BBB+
 **Total Score**: 845.8/900 points
-**Framework**: Staking Rewards DeFi Protocol Rating Framework v1.0-alpha
+**Product Type**: Lending
+**Chain**: Ethereum
+**Framework**: Staking Rewards DeFi Protocol Rating Framework v0.1-gamma
 
 ---
 
 ## Detailed Analysis
 
 ### SECURITY (40% Weight) - Score: 342.9/360 (95.2%)
+
+**NOTE: All Security scores are IDENTICAL to the Aave WETH rating. Same contracts, same audits, same keys, same timelocks, same monitoring.**
 
 #### Smart Contract Security (20% weight, 180 max points)
 
@@ -174,9 +178,20 @@
 | Market | 39.0 | 45 | 86.7% |
 | **Strategy Total** | **246.9** | **270** | **91.4%** |
 
+**Precise Strategy calculation:**
+- Protocol Mechanics: (69/81) x 45 = 38.333
+- Collateral: (36/36) x 45 = 45.0
+- Infra Counterparty: (66/72) x 45 = 41.25
+- Protocol Counterparty: (45/45) x 45 = 45.0
+- Liquidity: (69/81) x 45 = 38.333
+- Market: (39/45) x 45 = 39.0
+- **Total: 38.333 + 45.0 + 41.25 + 45.0 + 38.333 + 39.0 = 246.917 = 246.9**
+
 ---
 
 ### OPERATIONS (30% Weight) - Score: 256.0/270 (94.8%)
+
+**NOTE: All Operations scores are IDENTICAL to the Aave WETH rating. Same governance, same team, same docs, same treasury, same backstop.**
 
 #### Governance (7.5% weight, 67.5 max points)
 
@@ -268,3 +283,14 @@
 | **TOTAL** | | **845.8** | **900** | **880.7** |
 
 ---
+
+## Smart Contract Addresses
+
+| Role | Address | Explorer Link |
+|------|---------|---------------|
+| FundsHolder | 0x87870Bca3F3fD6335C3F4ce8392D69350B4fA4E2 | https://etherscan.io/address/0x87870bca3f3fd6335c3f4ce8392d69350b4fa4e2 |
+| aEthUSDT | 0x23878914EFE38d27C4D67Ab83ed1b93A74D4086a | https://etherscan.io/address/0x23878914EFE38d27C4D67Ab83ed1b93A74D4086a |
+| PoolConfigurator | 0x64b761D848206f447Fe2dd461b0c635Ec39EbB27 | https://etherscan.io/address/0x64b761D848206f447Fe2dd461b0c635Ec39EbB27 |
+| PoolAddressesProvider | 0x2f39d218133AFaB8F2B819B1066c7E434Ad94E9e | https://etherscan.io/address/0x2f39d218133AFaB8F2B819B1066c7E434Ad94E9e |
+| ACLManager | 0xc2aaCf6553D20d1e9571216fA22D988C6Ceddd42 | https://etherscan.io/address/0xc2aaCf6553D20d1e9571216fA22D988C6Ceddd42 |
+
