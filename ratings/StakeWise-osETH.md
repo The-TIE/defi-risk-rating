@@ -5,7 +5,6 @@
 **Total Score**: 810.52/900 points
 **Product Type**: LST
 **Chain**: Ethereum
-**Framework**: Staking Rewards DeFi Protocol Rating Framework v0.1-gamma
 
 ---
 
@@ -237,4 +236,18 @@
 | **TOTAL** | | | | **810.52** | **900** | **90.1%** |
 
 ---
+
+## Smart Contract Addresses
+
+| Role | Address | Explorer Link |
+|------|---------|---------------|
+| TokenContract (osETH) | 0xf1C9acDc66974dFB6dEcB12aA385b9cD01190E38 | https://etherscan.io/address/0xf1C9acDc66974dFB6dEcB12aA385b9cD01190E38 |
+| OsTokenVaultController | 0x2A261e60FB14586B474C208b1B7AC6D0f5000306 | https://etherscan.io/address/0x2A261e60FB14586B474C208b1B7AC6D0f5000306 |
+| Keeper | 0x6B5815467da09DaA7DC83Db21c9239d98Bb487b5 | https://etherscan.io/address/0x6B5815467da09DaA7DC83Db21c9239d98Bb487b5 |
+| PriceFeed | 0x8023518b2192FB5384DAdc596765B3dD1cdFe471 | https://etherscan.io/address/0x8023518b2192FB5384DAdc596765B3dD1cdFe471 |
+| GovernanceMultisig | 0x144a98cb1CdBb23610501fE6108858D9B7D24934 | https://etherscan.io/address/0x144a98cb1CdBb23610501fE6108858D9B7D24934 |
+| VaultsRegistry | 0x3a0008a588772446f6e656133C2D5029CC4FC20E | https://etherscan.io/address/0x3a0008a588772446f6e656133C2D5029CC4FC20E |
+| GenesisVault | 0xAC0F906E433d58FA868F936E8A43230473652885 | https://etherscan.io/address/0xAC0F906E433d58FA868F936E8A43230473652885 |
+| OsTokenConfig | 0x287d1e2A8dE183A8bf8f2b09Fa1340fBd766eb59 | https://etherscan.io/address/0x287d1e2A8dE183A8bf8f2b09Fa1340fBd766eb59 |
+| SharedMevEscrow | 0x48319f97E5Da1233c21c48b80097c0FB7a20Ff86 | https://etherscan.io/address/0x48319f97E5Da1233c21c48b80097c0FB7a20Ff86 |
 
