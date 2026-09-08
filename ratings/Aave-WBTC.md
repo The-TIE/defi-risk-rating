@@ -5,7 +5,6 @@
 **Total Score**: 850.6/900 points
 **Product Type**: Lending
 **Chain**: Ethereum
-**Framework**: Staking Rewards DeFi Protocol Rating Framework v0.1-gamma
 
 ---
 

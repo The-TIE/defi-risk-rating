@@ -5,7 +5,6 @@
 **Total Score**: 481.2/900 points
 **Product Type**: Vault
 **Chain**: Stacks
-**Framework**: Staking Rewards DeFi Protocol Rating Framework v0.1-gamma
 
 ---
 

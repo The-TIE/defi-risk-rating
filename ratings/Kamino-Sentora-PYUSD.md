@@ -5,7 +5,6 @@
 **Total Score**: 676.1/900 points
 **Product Type**: Vault
 **Chain**: Solana
-**Framework**: Staking Rewards DeFi Protocol Rating Framework v0.1-gamma
 
 ---
 

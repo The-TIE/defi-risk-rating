@@ -5,7 +5,6 @@
 **Total Score**: 548.9/900 points
 **Product Type**: Lending
 **Chain**: HyperEVM
-**Framework**: Staking Rewards DeFi Protocol Rating Framework v0.1-gamma
 
 ---
 
