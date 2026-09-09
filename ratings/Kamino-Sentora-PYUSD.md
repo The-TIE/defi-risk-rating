@@ -3,7 +3,7 @@
 **Rating Date**: 2026-03-10
 **Final Grade**: B-
 **Total Score**: 676.1/900 points
-**Framework**: Staking Rewards DeFi Protocol Rating Framework v1.0-alpha
+**Framework**: Staking Rewards DeFi Protocol Rating Framework v0.1-alpha
 
 ---
 

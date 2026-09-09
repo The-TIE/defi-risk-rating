@@ -5,7 +5,7 @@
 **Total Score**: 810.52/900 points
 **Product Type**: LST
 **Chain**: Ethereum
-**Framework**: Staking Rewards DeFi Protocol Rating Framework v0.1-gamma
+**Framework**: Staking Rewards DeFi Protocol Rating Framework v0.1-beta
 
 ---
 
