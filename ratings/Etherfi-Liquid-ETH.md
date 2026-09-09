@@ -1,6 +1,6 @@
 # Ether.fi - Liquid ETH Yield Vault Risk Rating
 
-**Rating Date**: 2026-04-29 (synced to published rating; previous internal rating 2026-03-04, BB+/789.7)
+**Rating Date**: 2026-04-29
 **Final Grade**: BB-
 **Total Score**: 753.2/900 points
 **Product Type**: Vault

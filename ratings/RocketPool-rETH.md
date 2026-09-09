@@ -1,6 +1,6 @@
 # Rocket Pool - rETH (Rocket Pool Staked Ether) Risk Rating
 
-**Rating Date**: 2026-07-31 (team response update; previous rating 2026-02-18, BB+/785.8)
+**Rating Date**: 2026-07-31
 **Final Grade**: BBB+
 **Total Score**: 842.2/900 points
 **Product Type**: LST

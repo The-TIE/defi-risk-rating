@@ -1,6 +1,6 @@
 # Maple Finance - syrupUSDC Risk Rating
 
-**Rating Date**: 2026-03-17 (updated for platform consistency with syrupUSDT)
+**Rating Date**: 2026-03-17
 **Final Grade**: CCC+
 **Total Score**: 619.9/900 points
 **Product Type**: Vault

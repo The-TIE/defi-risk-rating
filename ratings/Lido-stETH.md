@@ -1,6 +1,6 @@
 # Lido - stETH (Lido Staked Ether) Risk Rating
 
-**Rating Date**: 2026-04-24 (Re-rating incorporating team feedback; original: 2026-02-06)
+**Rating Date**: 2026-04-24
 **Final Grade**: A+
 **Total Score**: 874.6/900 points
 **Product Type**: LST

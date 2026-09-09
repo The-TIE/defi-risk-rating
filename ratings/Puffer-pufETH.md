@@ -1,6 +1,6 @@
 # Puffer Finance - pufETH (Liquid Restaking Token) Risk Rating
 
-**Rating Date**: 2026-04-22 (Re-rated from 2026-03-09 B- rating incorporating team challenge responses and v0.1-gamma framework)
+**Rating Date**: 2026-04-22
 **Final Grade**: BB-
 **Total Score**: 735.8/900 points
 **Product Type**: LST

@@ -1,6 +1,6 @@
 # Steakhouse Prime Instant (V2) - USDT Vault Risk Rating
 
-**Rating Date**: 2026-04-03 (Updated: 2026-04-27)
+**Rating Date**: 2026-04-03
 **Final Grade**: BB-
 **Total Score**: 747.25/900 points
 **Product Type**: Vault

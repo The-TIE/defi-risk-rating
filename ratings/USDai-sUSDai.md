@@ -1,8 +1,8 @@
 # USD.ai - sUSDai Risk Rating
 
-**Rating Date**: 2026-04-16 (updated 2026-04-22 with on-chain verification)
+**Rating Date**: 2026-04-16
 **Final Grade**: CCC-
-**Total Score**: 489.9/900 points (Potential: 794.9/900)
+**Total Score**: 489.9/900 points
 **Product Type**: Vault
 **Chain**: Arbitrum
 **Framework**: Staking Rewards DeFi Protocol Rating Framework v0.1-beta
