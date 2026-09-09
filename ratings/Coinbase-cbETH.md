@@ -3,6 +3,7 @@
 **Rating Date**: 2026-02-12
 **Final Grade**: CCC
 **Total Score**: 509.9/900 points
+**Framework**: Staking Rewards DeFi Protocol Rating Framework v0.1-alpha
 **Product Type**: LST
 **Chain**: Ethereum
 

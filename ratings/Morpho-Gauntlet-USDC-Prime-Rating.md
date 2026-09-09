@@ -4,6 +4,7 @@
 **Analyst**: DeFi Risk Auditor Agent
 **Final Grade**: BB+
 **Total Score**: 793.0/900 points
+**Framework**: Staking Rewards DeFi Protocol Rating Framework v0.1-beta
 
 ---
 

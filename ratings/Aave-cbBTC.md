@@ -3,6 +3,7 @@
 **Rating Date**: 2026-04-01
 **Final Grade**: BBB+
 **Total Score**: 842.3/900 points
+**Framework**: Staking Rewards DeFi Protocol Rating Framework v0.1-beta
 **Product Type**: Lending
 **Chain**: Ethereum
 

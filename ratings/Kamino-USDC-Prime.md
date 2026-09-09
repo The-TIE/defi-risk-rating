@@ -3,6 +3,7 @@
 **Rating Date**: 2026-03-10
 **Final Grade**: B
 **Total Score**: 688.1/900 points
+**Framework**: Staking Rewards DeFi Protocol Rating Framework v0.1-alpha
 **Product Type**: Vault
 **Chain**: Solana
 

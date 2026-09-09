@@ -3,6 +3,7 @@
 **Rating Date**: 2026-03-23
 **Final Grade**: CCC-
 **Total Score**: 481.2/900 points
+**Framework**: Staking Rewards DeFi Protocol Rating Framework v0.1-alpha
 **Product Type**: Vault
 **Chain**: Stacks
 

@@ -3,6 +3,7 @@
 **Rating Date**: 2026-03-17
 **Final Grade**: CCC+
 **Total Score**: 619.9/900 points
+**Framework**: Staking Rewards DeFi Protocol Rating Framework v0.1-alpha
 **Product Type**: Vault
 **Chain**: Ethereum
 

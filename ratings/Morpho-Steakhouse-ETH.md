@@ -5,7 +5,7 @@
 **Total Score**: 786.3/900 points
 **Product Type**: Vault
 **Chain**: Ethereum
-**Framework**: v0.1-beta
+**Framework**: Staking Rewards DeFi Protocol Rating Framework v0.1-beta
 
 ---
 
