@@ -3,6 +3,8 @@
 **Rating Date**: 2026-07-21
 **Final Grade**: BB+
 **Total Score**: 806.0/900 points
+**Product Type**: LST
+**Chain**: Ethereum
 **Framework**: Staking Rewards DeFi Protocol Rating Framework v0.1-gamma
 
 ---
@@ -290,4 +292,23 @@ Potential Operations: 67.5 + 67.5 + 67.5 + 67.5 = 270.0/270 → AAA
 | **TOTAL** | | **87** | **78** | **9** | | | **806.0** | **900** | **89.6%** |
 
 ---
+
+## Smart Contract Addresses
+
+| Role | Address | Explorer Link |
+|------|---------|---------------|
+| TokenContract (eETH) | 0x35fA164735182de50811E8e2E824cFb9B6118ac2 | [Etherscan](https://etherscan.io/address/0x35fA164735182de50811E8e2E824cFb9B6118ac2) |
+| eETH Implementation | 0xCB3D917A965a70214f430a135154cd5adda2ad84 | [Etherscan](https://etherscan.io/address/0xCB3D917A965a70214f430a135154cd5adda2ad84) |
+| weETH (wrapped form) | 0xCd5fE23C85820F7B72D0926FC9b05b43E359b7ee | [Etherscan](https://etherscan.io/address/0xCd5fE23C85820F7B72D0926FC9b05b43E359b7ee) |
+| LiquidityPool (FundsHolder) | 0x308861A430be4cce5502d0A12724771Fc6DaF216 | [Etherscan](https://etherscan.io/address/0x308861A430be4cce5502d0A12724771Fc6DaF216) |
+| LiquidityPool Implementation | 0x83bc649fcdb2c8da146b2154a559ddedf937ef12 | [Etherscan](https://etherscan.io/address/0x83bc649fcdb2c8da146b2154a559ddedf937ef12) |
+| Oracle (EtherFiOracle) | 0x57AaF0004C716388B21795431CD7D5f9D3Bb6a41 | [Etherscan](https://etherscan.io/address/0x57AaF0004C716388B21795431CD7D5f9D3Bb6a41) |
+| GovernanceMultisig (Upgrade Admin Safe, 6-of-10) | 0xcdd57D11476c22d265722F68390b036f3DA48c21 | [Etherscan](https://etherscan.io/address/0xcdd57D11476c22d265722F68390b036f3DA48c21) |
+| TimelockA (Upgrade, 10 days) | 0x9f26d4C958fD811A1F59B01B86Be7dFFc9d20761 | [Etherscan](https://etherscan.io/address/0x9f26d4C958fD811A1F59B01B86Be7dFFc9d20761) |
+| EmergencyAdmin (Operating Admin Safe, 4-of-7) | 0x2aCA71020De61bb532008049e1Bd41E451aE8AdC | [Etherscan](https://etherscan.io/address/0x2aCA71020De61bb532008049e1Bd41E451aE8AdC) |
+| TimelockB (Operating, 2 days) | 0xcD425f44758a08BaAB3C4908f3e3dE5776e45d7a | [Etherscan](https://etherscan.io/address/0xcD425f44758a08BaAB3C4908f3e3dE5776e45d7a) |
+| EtherFiAdmin (enforces 5% APR rebase cap) | 0x0EF8fa4760Db8f5Cd4d993f3e3416f30f942D705 | [Etherscan](https://etherscan.io/address/0x0EF8fa4760Db8f5Cd4d993f3e3416f30f942D705) |
+| StakingManager | 0x25e821B7197B146F7713C3b89B2A3aDB3AE3f01E | [Etherscan](https://etherscan.io/address/0x25e821B7197B146F7713C3b89B2A3aDB3AE3f01E) |
+| TreasuryMultisig | 0x6329004E903B7F420245E7aF3f355186f2432466 | [Etherscan](https://etherscan.io/address/0x6329004E903B7F420245E7aF3f355186f2432466) |
+| ETHFI (governance token) | 0xfe0c30065b384f05761f15d0cc899d4f9f9cc0eb | [Etherscan](https://etherscan.io/address/0xfe0c30065b384f05761f15d0cc899d4f9f9cc0eb) |
 

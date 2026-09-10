@@ -3,7 +3,9 @@
 **Rating Date**: 2026-03-17
 **Final Grade**: CCC+
 **Total Score**: 614.0/900 points
-**Framework**: Staking Rewards DeFi Protocol Rating Framework v1.0-alpha
+**Framework**: Staking Rewards DeFi Protocol Rating Framework v0.1-alpha
+**Product Type**: Vault
+**Chain**: Ethereum
 
 ---
 
@@ -234,3 +236,19 @@
 | **TOTAL** | | | | **614.0** | **900** | **68.2%** |
 
 ---
+
+## Smart Contract Addresses
+
+| Role | Address | Explorer Link |
+|------|---------|---------------|
+| VaultContract (syrupUSDT Pool) | 0x356B8d89c1e1239Cbbb9dE4815c39A1474d5BA7D | [Etherscan](https://etherscan.io/address/0x356B8d89c1e1239Cbbb9dE4815c39A1474d5BA7D) |
+| PoolManager | 0x0cdA32E08B48bFDDbc7eE96B44b09cf286F9E21a | [Etherscan](https://etherscan.io/address/0x0cdA32E08B48bFDDbc7eE96B44b09cf286F9E21a) |
+| WithdrawalManagerQueue | 0x86eBDf902d800F2a82038290B6DBb2A5eE29eB8C | [Etherscan](https://etherscan.io/address/0x86eBDf902d800F2a82038290B6DBb2A5eE29eB8C) |
+| FixedTermLoanManager | 0xC17aa0Cb662bC4787bB16bD3Bc13d0d88eB7aBDd | [Etherscan](https://etherscan.io/address/0xC17aa0Cb662bC4787bB16bD3Bc13d0d88eB7aBDd) |
+| OpenTermLoanManager | 0x616022E54324eF9c13B99c229Dac8ea69AF4FAFf | [Etherscan](https://etherscan.io/address/0x616022E54324eF9c13B99c229Dac8ea69AF4FAFf) |
+| SyrupRouter | 0xF007476Bb27430795138C511F18F821e8D1e5Ee2 | [Etherscan](https://etherscan.io/address/0xF007476Bb27430795138C511F18F821e8D1e5Ee2) |
+| AaveStrategy | 0x2b817B822B0ddd4597a92dBEd1bD0a6796CA37E0 | [Etherscan](https://etherscan.io/address/0x2b817B822B0ddd4597a92dBEd1bD0a6796CA37E0) |
+| GovernorTimelock | 0x2eFFf88747EB5a3FF00d4d8d0f0800E306C0426b | [Etherscan](https://etherscan.io/address/0x2eFFf88747EB5a3FF00d4d8d0f0800E306C0426b) |
+| GovernanceMultisig (DAO) | 0xd6d4Bcde6c816F17889f1Dd3000aF0261B03a196 | [Etherscan](https://etherscan.io/address/0xd6d4Bcde6c816F17889f1Dd3000aF0261B03a196) |
+| TreasuryMultisig | 0xa9466EaBd096449d650D5AEB0dD3dA6F52FD0B19 | [Etherscan](https://etherscan.io/address/0xa9466EaBd096449d650D5AEB0dD3dA6F52FD0B19) |
+

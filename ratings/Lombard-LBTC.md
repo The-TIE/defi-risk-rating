@@ -1,9 +1,11 @@
-# Lombard Finance - LBTC Risk Rating
+# Lombard Finance - LBTC (Liquid Bitcoin Staking Token) Risk Rating
 
 **Rating Date**: 2026-03-13
 **Final Grade**: CCC+
 **Total Score**: 643.7/900 points
-**Framework**: Staking Rewards DeFi Protocol Rating Framework v1.0-alpha
+**Framework**: Staking Rewards DeFi Protocol Rating Framework v0.1-alpha
+**Product Type**: LST
+**Chain**: Ethereum
 
 ---
 
@@ -262,3 +264,15 @@
 | **TOTAL** | | | | **643.65** | **900** | **71.5%** |
 
 ---
+
+## Smart Contract Addresses
+
+| Role | Address | Explorer Link |
+|------|---------|---------------|
+| TokenContract | 0x8236a87084f8B84306f72007F36F2618A5634494 | [Etherscan](https://etherscan.io/address/0x8236a87084f8b84306f72007f36f2618a5634494) |
+| ConsortiumGovernance | 0xdad58DfA5c1a7a34419AFdBE1f0d610efeea95E4 | [Etherscan](https://etherscan.io/address/0xdad58DfA5c1a7a34419AFdBE1f0d610efeea95E4) |
+| Timelock | 0x055E84e7FE8955E2781010B866f10Ef6E1E77e59 | [Etherscan](https://etherscan.io/address/0x055E84e7FE8955E2781010B866f10Ef6E1E77e59) |
+| Oracle (RedStone PoR) | 0xb415eAA355D8440ac7eCB602D3fb67ccC1f0bc81 | [Etherscan](https://etherscan.io/address/0xb415eAA355D8440ac7eCB602D3fb67ccC1f0bc81) |
+| LBTCv (DeFi Vault) | 0x5401b8620E5FB570064CA9114fd1e135fd77D57c | [Etherscan](https://etherscan.io/address/0x5401b8620E5FB570064CA9114fd1e135fd77D57c) |
+| BARD Token | 0xf0DB65D17e30a966C2ae6A21f6BBA71cea6e9754 | [Etherscan](https://etherscan.io/address/0xf0DB65D17e30a966C2ae6A21f6BBA71cea6e9754) |
+

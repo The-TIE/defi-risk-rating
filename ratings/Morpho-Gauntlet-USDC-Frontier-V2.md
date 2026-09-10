@@ -3,7 +3,9 @@
 **Rating Date**: 2026-03-27
 **Final Grade**: B
 **Total Score**: 694.5/900 points
-**Framework**: v0.1-beta
+**Product Type**: Vault
+**Chain**: Ethereum
+**Framework**: Staking Rewards DeFi Protocol Rating Framework v0.1-beta
 
 ---
 
@@ -307,4 +309,14 @@ Validation: 67.5 + 52.5 + 67.5 + 34.5 = 222.0 -- VERIFIED
 | **TOTAL** | | | | **694.5** | **900** | **77.2%** |
 
 ---
+
+## Smart Contract Addresses
+
+| Role | Address | Explorer Link |
+|------|---------|---------------|
+| VaultContract | 0x9a1D6bd5b8642C41F25e0958129B85f8E1176F3e | [Etherscan](https://etherscan.io/address/0x9a1D6bd5b8642C41F25e0958129B85f8E1176F3e) |
+| MorphoBlue | 0xBBBBBBBBbb9cc5e90e3b3Af64bdAF62C37EEFFCb | [Etherscan](https://etherscan.io/address/0xBBBBBBBBbb9cc5e90e3b3Af64bdAF62C37EEFFCb) |
+| GovernanceMultisig (Owner) | 0xC684c6587712e5E7BDf9fD64415F23Bd2b05fAec | [Etherscan](https://etherscan.io/address/0xC684c6587712e5E7BDf9fD64415F23Bd2b05fAec) |
+| Sentinel | 0x7084bF4dB6c21e1834dD6482f6056a39A33584cD | [Etherscan](https://etherscan.io/address/0x7084bF4dB6c21e1834dD6482f6056a39A33584cD) |
+| Curator | 0x9E33faAE38ff641094fa68c65c2cE600b3410585 | [Etherscan](https://etherscan.io/address/0x9E33faAE38ff641094fa68c65c2cE600b3410585) |
 

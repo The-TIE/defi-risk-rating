@@ -3,7 +3,9 @@
 **Rating Date**: 2026-03-10
 **Final Grade**: B-
 **Total Score**: 676.1/900 points
-**Framework**: Staking Rewards DeFi Protocol Rating Framework v1.0-alpha
+**Framework**: Staking Rewards DeFi Protocol Rating Framework v0.1-alpha
+**Product Type**: Vault
+**Chain**: Solana
 
 ---
 
@@ -300,3 +302,14 @@
 | **TOTAL** | | | | **676.1** | **900** |
 
 ---
+
+## Smart Contract Addresses
+
+| Role | Address | Explorer Link |
+|------|---------|---------------|
+| VaultContract (Sentora PYUSD) | A2wsxhA7pF4B2UKVfXocb6TAAP9ipfPJam6oMKgDE5BK | [Solscan](https://solscan.io/account/A2wsxhA7pF4B2UKVfXocb6TAAP9ipfPJam6oMKgDE5BK) |
+| LendingPool (Kamino Main Market) | 7u3HeHxYDLhnCoErrtycNokbQYbWGzLs6JSDqGAv5PfF | [Solscan](https://solscan.io/account/7u3HeHxYDLhnCoErrtycNokbQYbWGzLs6JSDqGAv5PfF) |
+| KLendProgram | KLend2g3cP87fffoy8q1mQqGKjrxjC8boSyAYavgmjD | [Solscan](https://solscan.io/account/KLend2g3cP87fffoy8q1mQqGKjrxjC8boSyAYavgmjD) |
+| AdminMultisig | 6hhBGCtmg7tPWUSgp3LG6X2rsmYWAc4tNsA6G4CnfQbM | [Solscan](https://solscan.io/account/6hhBGCtmg7tPWUSgp3LG6X2rsmYWAc4tNsA6G4CnfQbM) |
+| ScopeOracle | GzFgdRJXmawPhGeBsyRCDLx4jAKPsvbUqoqitzppkzkW | [Solscan](https://solscan.io/account/GzFgdRJXmawPhGeBsyRCDLx4jAKPsvbUqoqitzppkzkW) |
+

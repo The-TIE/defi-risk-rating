@@ -3,6 +3,8 @@
 **Rating Date**: 2026-04-28
 **Final Grade**: BB
 **Total Score**: 768.8/900 points
+**Product Type**: Vault
+**Chain**: Ethereum
 **Framework**: Staking Rewards DeFi Protocol Rating Framework v0.1-gamma
 
 ---
@@ -300,4 +302,19 @@ Note: spUSDT scores 6.0 weighted points lower than spUSDC on Strategy (224.3 vs 
 | **TOTAL** | | | | **768.8** | **900** | **85.4%** |
 
 ---
+
+## Smart Contract Addresses
+
+| Role | Address | Explorer Link |
+|------|---------|---------------|
+| VaultContract (spUSDT) | 0xe2e7a17dFf93280dec073C995595155283e3C372 | [Etherscan](https://etherscan.io/address/0xe2e7a17dFf93280dec073C995595155283e3C372) |
+| Implementation (shared) | 0x1b992302652A92611DCd5090D1Cb388C6377f455 | [Etherscan](https://etherscan.io/address/0x1b992302652A92611DCd5090D1Cb388C6377f455) |
+| ALMProxy | 0x1601843c5E9bC251A3272907010AFa41Fa18347E | [Etherscan](https://etherscan.io/address/0x1601843c5E9bC251A3272907010AFa41Fa18347E) |
+| ALMController | 0x5c46Fc65855c0C7465a1EA85EEA0B24B601502D3 | [Etherscan](https://etherscan.io/address/0x5c46Fc65855c0C7465a1EA85EEA0B24B601502D3) |
+| ALMRateLimits | 0x7A5FD5cf045e010e62147F065cEAe59e5344b188 | [Etherscan](https://etherscan.io/address/0x7A5FD5cf045e010e62147F065cEAe59e5344b188) |
+| GovernanceExecutor (SparkProxy) | 0x3300f198988e4C9C63F75dF86De36421f06af8c4 | [Etherscan](https://etherscan.io/address/0x3300f198988e4C9C63F75dF86De36421f06af8c4) |
+| ALMFreezerMultisig | 0x90D8c80C028B4C09C0d8dcAab9bbB057F0513431 | [Etherscan](https://etherscan.io/address/0x90D8c80C028B4C09C0d8dcAab9bbB057F0513431) |
+| ALMOpsMultisig | 0x2E1b01adABB8D4981863394bEa23a1263CBaeDfC | [Etherscan](https://etherscan.io/address/0x2E1b01adABB8D4981863394bEa23a1263CBaeDfC) |
+| ALMRelayerMultisig | 0x8a25A24EDE9482C4Fc0738F99611BE58F1c839AB | [Etherscan](https://etherscan.io/address/0x8a25A24EDE9482C4Fc0738F99611BE58F1c839AB) |
+| SparkFoundationMultisig | 0x92e4629a4510AF5819d7D1601464C233599fF5ec | [Etherscan](https://etherscan.io/address/0x92e4629a4510AF5819d7D1601464C233599fF5ec) |
 

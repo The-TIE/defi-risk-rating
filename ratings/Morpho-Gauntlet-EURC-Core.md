@@ -4,6 +4,8 @@
 **Final Grade**: BB-
 **Total Score**: 740.8/900 points
 **Framework**: Staking Rewards DeFi Protocol Rating Framework v0.1-beta
+**Product Type**: Vault
+**Chain**: Ethereum
 
 ---
 
@@ -301,4 +303,14 @@
 | **TOTAL** | | | | **740.8** | **900** | **82.3%** |
 
 ---
+
+## Smart Contract Addresses
+
+| Role | Address | Explorer Link |
+|------|---------|---------------|
+| VaultContract | 0x2ed10624315b74a78f11FAbedAa1A228c198aEfB | [Etherscan](https://etherscan.io/address/0x2ed10624315b74a78f11FAbedAa1A228c198aEfB) |
+| MorphoBlue | 0xBBBBBBBBbb9cc5e90e3b3Af64bdAF62C37EEFFCb | [Etherscan](https://etherscan.io/address/0xBBBBBBBBbb9cc5e90e3b3Af64bdAF62C37EEFFCb) |
+| OwnerMultisig | 0xC684c6587712e5E7BDf9fD64415F23Bd2b05fAec | [Etherscan](https://etherscan.io/address/0xC684c6587712e5E7BDf9fD64415F23Bd2b05fAec) |
+| Guardian | 0x7084bF4dB6c21e1834dD6482f6056a39A33584cD | [Etherscan](https://etherscan.io/address/0x7084bF4dB6c21e1834dD6482f6056a39A33584cD) |
+| CuratorMultisig | 0x9E33faAE38ff641094fa68c65c2cE600b3410585 | [Etherscan](https://etherscan.io/address/0x9E33faAE38ff641094fa68c65c2cE600b3410585) |
 

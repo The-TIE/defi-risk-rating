@@ -1,8 +1,10 @@
-# Puffer Finance - pufETH Risk Rating
+# Puffer Finance - pufETH (Liquid Restaking Token) Risk Rating
 
 **Rating Date**: 2026-04-22
 **Final Grade**: BB-
 **Total Score**: 735.8/900 points
+**Product Type**: LST
+**Chain**: Ethereum
 **Framework**: Staking Rewards DeFi Protocol Rating Framework v0.1-gamma
 
 ---
@@ -268,3 +270,16 @@
 | **TOTAL** | | | | **735.8** | **900** | **81.8%** |
 
 ---
+
+## Smart Contract Addresses
+
+| Role | Address | Explorer Link |
+|------|---------|---------------|
+| TokenContract (pufETH / PufferVault) | 0xD9A442856C234a39a81a089C06451EBAa4306a72 | [Etherscan](https://etherscan.io/address/0xD9A442856C234a39a81a089C06451EBAa4306a72) |
+| Timelock | 0x3C28B7c7Ba1A1f55c9Ce66b263B33B204f2126eA | [Etherscan](https://etherscan.io/address/0x3C28B7c7Ba1A1f55c9Ce66b263B33B204f2126eA) |
+| AccessManager | 0x8c1686069474410E6243425f4a10177a94EBEE11 | [Etherscan](https://etherscan.io/address/0x8c1686069474410E6243425f4a10177a94EBEE11) |
+| PufferOracle | 0x0BE2aE0edbeBb517541DF217EF0074FC9a9e994f | [Etherscan](https://etherscan.io/address/0x0BE2aE0edbeBb517541DF217EF0074FC9a9e994f) |
+| Community Multisig | 0x446d4d6b26815f9bA78B5D454E303315D586Cb2a | [Etherscan](https://etherscan.io/address/0x446d4d6b26815f9bA78B5D454E303315D586Cb2a) |
+| Operations Multisig | 0xC0896ab1A8cae8c2C1d27d011eb955Cca955580d | [Etherscan](https://etherscan.io/address/0xC0896ab1A8cae8c2C1d27d011eb955Cca955580d) |
+| Pauser Multisig | 0x1ba8e3aA853F73ae8093E26B7B8F2520c3620Df4 | [Etherscan](https://etherscan.io/address/0x1ba8e3aA853F73ae8093E26B7B8F2520c3620Df4) |
+

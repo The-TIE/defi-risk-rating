@@ -3,6 +3,8 @@
 **Rating Date**: 2026-06-23
 **Final Grade**: B-
 **Total Score**: 680.8/900 points
+**Product Type**: Vault
+**Chain**: Ethereum
 **Framework**: Staking Rewards DeFi Protocol Rating Framework v0.1-gamma
 
 ---
@@ -296,4 +298,13 @@
 *Total = 293.2 + 177.3 + 210.3 = 680.84 ≈ 680.8/900.*
 
 ---
+
+## Smart Contract Addresses
+
+| Role | Address | Explorer Link |
+|------|---------|---------------|
+| VaultContract | 0x95EeF579155cd2C5510F312c8fA39208c3Be01a8 | [Etherscan](https://etherscan.io/address/0x95EeF579155cd2C5510F312c8fA39208c3Be01a8) |
+| MorphoBlue | 0xBBBBBBBBbb9cc5e90e3b3Af64bdAF62C37EEFFCb | [Etherscan](https://etherscan.io/address/0xBBBBBBBBbb9cc5e90e3b3Af64bdAF62C37EEFFCb) |
+| OwnerMultisig | 0xE86399fE6d7007FdEcb08A2ee1434Ee677a04433 | [Etherscan](https://etherscan.io/address/0xE86399fE6d7007FdEcb08A2ee1434Ee677a04433) |
+| Guardian | 0x2F80ba89362f86a9acC71BFfE5EcF4997F52BDd4 | [Etherscan](https://etherscan.io/address/0x2F80ba89362f86a9acC71BFfE5EcF4997F52BDd4) |
 

@@ -3,6 +3,8 @@
 **Rating Date**: 2026-04-01
 **Final Grade**: BB
 **Total Score**: 780.8/900 points
+**Product Type**: Lending
+**Chain**: Ethereum
 **Framework**: Staking Rewards DeFi Protocol Rating Framework v0.1-beta
 
 ---
@@ -248,4 +250,16 @@
 | **TOTAL** | | | | **780.8** | **900** | **86.8%** |
 
 ---
+
+## Smart Contract Addresses
+
+| Role | Address | Explorer Link |
+|------|---------|---------------|
+| LendingPool (cUSDTv3 Proxy) | 0x3Afdc9BCA9213A35503b077a6072F3D0d5AB0840 | [Etherscan](https://etherscan.io/address/0x3Afdc9BCA9213A35503b077a6072F3D0d5AB0840) |
+| Implementation (CometWithExtendedAssetList) | 0x7B2C7Ea97ac2ee9062f9a8972f80688279432044 | [Etherscan](https://etherscan.io/address/0x7B2C7Ea97ac2ee9062f9a8972f80688279432044) |
+| ProxyAdmin (CometProxyAdmin) | 0x1EC63B5883C3481134FD50D5DAebc83Ecd2E8779 | [Etherscan](https://etherscan.io/address/0x1EC63B5883C3481134FD50D5DAebc83Ecd2E8779) |
+| Timelock | 0x6d903f6003cca6255D85CcA4D3B5E5146dC33925 | [Etherscan](https://etherscan.io/address/0x6d903f6003cca6255D85CcA4D3B5E5146dC33925) |
+| GovernanceMultisig (Pause/Proposal Guardian) | 0xbbf3f1421D886E9b2c5D716B5192aC998af2012c | [Etherscan](https://etherscan.io/address/0xbbf3f1421D886E9b2c5D716B5192aC998af2012c) |
+| Governor Bravo | 0xc0Da02939E1441F497fd74F78cE7Decb17B66529 | [Etherscan](https://etherscan.io/address/0xc0Da02939E1441F497fd74F78cE7Decb17B66529) |
+| Oracle (USDT/USD Chainlink) | 0x3E7d1eAB13ad0104d2750B8863b489D65364e32D | [Etherscan](https://etherscan.io/address/0x3E7d1eAB13ad0104d2750B8863b489D65364e32D) |
 

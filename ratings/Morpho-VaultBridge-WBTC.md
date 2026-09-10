@@ -3,6 +3,8 @@
 **Rating Date**: 2026-03-27
 **Final Grade**: B
 **Total Score**: 698.4/900 points
+**Product Type**: Vault
+**Chain**: Ethereum
 **Framework**: Staking Rewards DeFi Protocol Rating Framework v0.1-beta
 
 ---
@@ -220,7 +222,7 @@
 |------|----------|----------------|---------|-----------|----------------|----------|
 | O-TL-01 | Are core team and operating entities publicly identified and credible? | Yes. Morpho: Paul Frambot (CEO), ADDMO (French nonprofit). Polygon Labs: Marc Boiron (CEO), well-known public company. Gauntlet: Tarun Chitra (CEO). Steakhouse: adcv, Sebastien Derivaux. All publicly identified with verifiable track records. | 9 | 9 | Non-Improvable (optimal) | [P1] [Morpho](https://morpho.org/), [P1] [Polygon](https://polygon.technology/), [P1] [Gauntlet About](https://www.gauntlet.xyz/about), [P1] [Steakhouse](https://www.steakhouse.financial/) |
 | O-TL-02 | Is the protocol dependent on a single developer or small team? | No. The Vault Bridge ecosystem involves multiple independent teams: Morpho Labs/ADDMO, Polygon Labs, Gauntlet, and Steakhouse Financial. Each has full engineering teams with redundancy. | 9 | 9 | Non-Improvable (optimal) | [P1] [Polygon VB Blog](https://polygon.technology/blog/introducing-vaultbridge-a-new-revenue-lego-for-evm-chains) |
-| O-TL-03 | What legal entity and jurisdiction operate the protocol and/or assets? | Morpho: ADDMO (French nonprofit, Paris) + Morpho Labs SAS (France). Polygon Labs: incorporated in US. Gauntlet: Gauntlet Networks Inc. (New York, USA). Steakhouse: Carniciera Tropical Inc. (Panama). Multiple entities with clear jurisdictions. | 9 | 9 | Non-Improvable (optimal) | [P1] [Morpho Legal Notice](https://morpho.org/legal-notice/), [P1] [Polygon](https://polygon.technology/) |
+| O-TL-03 | What legal entity and jurisdiction operate the protocol and/or assets? | Morpho: ADDMO (French nonprofit, Paris) + Morpho Labs SAS (France). Polygon Labs: incorporated in US. Gauntlet: Gauntlet Networks Inc. (New York, USA). Steakhouse: Carniceria Tropical Inc. (Panama). Multiple entities with clear jurisdictions. | 9 | 9 | Non-Improvable (optimal) | [P1] [Morpho Legal Notice](https://morpho.org/legal-notice/), [P1] [Polygon](https://polygon.technology/) |
 | O-TL-04 | Are there known investigations or regulatory actions related to the entity? | No known actions against Morpho, Polygon Labs, Gauntlet Networks Inc., or Steakhouse entities. | 9 | 9 | Non-Improvable (optimal) | Public records |
 | O-TL-05 | Is there an on-call and incident response process for core teams? | Gauntlet has 24/7 on-call with ZeroShadow (vSOC), Hypernative, and SEAL Intel partnerships. Morpho demonstrated 4-minute response April 2025. However, per beta framework: incident response MUST include documented procedures to halt automated allocation mechanisms. During March 2026 Resolv exploit, the Public Allocator on Frontier vaults continued auto-supplying capital to broken markets for hours post-exploit -- demonstrating that incident response procedures did NOT cover halting automated allocation within SLA. Same automated infrastructure applies to VaultBridge WBTC. Formal on-call exists but does not cover halting automated allocation mechanisms within 1 hour. | 3 | 9 | **Improvable** | [P1] [Gauntlet Security](https://www.gauntlet.xyz/vaults/security), [P1] [Building Institutional Security](https://www.gauntlet.xyz/resources/building-an-institutional-grade-security-posture-at-gauntlet), [P4] [DeFi Prime - Resolv Exploit](https://defiprime.com/resolv-usr-exploit) |
 | O-TL-06 | Does the team provide timely support for critical user or integrator issues? | Yes. Morpho's 4-minute response in April 2025. Gauntlet published detailed stress report within days of November 2025. Active community channels. Multiple teams provide support coverage. | 9 | 9 | Non-Improvable (optimal) | [P1] [Morpho Incident Report](https://morpho.org/blog/morpho-app-incident-april-10-2025/) |
@@ -306,4 +308,14 @@
 | **TOTAL** | | **698.4** | **900** | **818.5** |
 
 ---
+
+## Smart Contract Addresses
+
+| Role | Address | Explorer Link |
+|------|---------|---------------|
+| VaultContract | 0x812B2C6Ab3f4471c0E43D4BB61098a9211017427 | [Etherscan](https://etherscan.io/address/0x812B2C6Ab3f4471c0E43D4BB61098a9211017427) |
+| MorphoBlue | 0xBBBBBBBBbb9cc5e90e3b3Af64bdAF62C37EEFFCb | [Etherscan](https://etherscan.io/address/0xBBBBBBBBbb9cc5e90e3b3Af64bdAF62C37EEFFCb) |
+| OwnerMultisig | 0xC684c6587712e5E7BDf9fD64415F23Bd2b05fAec | [Etherscan](https://etherscan.io/address/0xC684c6587712e5E7BDf9fD64415F23Bd2b05fAec) |
+| Guardian | 0x7084bF4dB6c21e1834dD6482f6056a39A33584cD | [Etherscan](https://etherscan.io/address/0x7084bF4dB6c21e1834dD6482f6056a39A33584cD) |
+| CuratorMultisig | 0x9E33faAE38ff641094fa68c65c2cE600b3410585 | [Etherscan](https://etherscan.io/address/0x9E33faAE38ff641094fa68c65c2cE600b3410585) |
 

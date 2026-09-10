@@ -3,6 +3,8 @@
 **Rating Date**: 2026-06-23
 **Final Grade**: BB-
 **Total Score**: 740.6/900 points
+**Product Type**: Vault
+**Chain**: Ethereum
 **Framework**: Staking Rewards DeFi Protocol Rating Framework v0.1-gamma
 
 ---
@@ -312,4 +314,16 @@
 | **TOTAL** | | | | **740.6** | **900** | **82.3%** |
 
 ---
+
+## Smart Contract Addresses
+
+| Role | Address | Explorer Link |
+|------|---------|---------------|
+| VaultContract | 0x4881Ef0BF6d2365D3dd6499ccd7532bcdBCE0658 | [Etherscan](https://etherscan.io/address/0x4881Ef0BF6d2365D3dd6499ccd7532bcdBCE0658) |
+| MorphoBlue | 0xBBBBBBBBbb9cc5e90e3b3Af64bdAF62C37EEFFCb | [Etherscan](https://etherscan.io/address/0xBBBBBBBBbb9cc5e90e3b3Af64bdAF62C37EEFFCb) |
+| OwnerMultisig | 0xC684c6587712e5E7BDf9fD64415F23Bd2b05fAec | [Etherscan](https://etherscan.io/address/0xC684c6587712e5E7BDf9fD64415F23Bd2b05fAec) |
+| GuardianMultisig | 0x7084bF4dB6c21e1834dD6482f6056a39A33584cD | [Etherscan](https://etherscan.io/address/0x7084bF4dB6c21e1834dD6482f6056a39A33584cD) |
+| CuratorMultisig | 0x9E33faAE38ff641094fa68c65c2cE600b3410585 | [Etherscan](https://etherscan.io/address/0x9E33faAE38ff641094fa68c65c2cE600b3410585) |
+| Collateral_weETH | 0xCd5fE23C85820F7B72D0926FC9b05b43E359b7ee | [Etherscan](https://etherscan.io/address/0xCd5fE23C85820F7B72D0926FC9b05b43E359b7ee) |
+| Collateral_wstETH | 0x7f39C581F595B53c5cb19bD0b3f8dA6c935E2Ca0 | [Etherscan](https://etherscan.io/address/0x7f39C581F595B53c5cb19bD0b3f8dA6c935E2Ca0) |
 

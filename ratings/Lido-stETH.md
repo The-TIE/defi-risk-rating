@@ -1,8 +1,10 @@
-# Lido - stETH Risk Rating
+# Lido - stETH (Lido Staked Ether) Risk Rating
 
 **Rating Date**: 2026-04-24
 **Final Grade**: A+
 **Total Score**: 874.6/900 points
+**Product Type**: LST
+**Chain**: Ethereum
 **Framework**: Staking Rewards DeFi Protocol Rating Framework v0.1-gamma
 
 ---
@@ -254,3 +256,16 @@ Potential Strategy: 266.7/270 (98.8%)
 | **TOTAL** | | | | **874.6** | **900** | **97.2%** |
 
 ---
+
+## Smart Contract Addresses
+
+| Role | Address | Explorer Link |
+|------|---------|---------------|
+| TokenContract (stETH) | 0xae7ab96520DE3A18E5e111B5EaAb095312D7fE84 | [Etherscan](https://etherscan.io/address/0xae7ab96520DE3A18E5e111B5EaAb095312D7fE84) |
+| wstETH | 0x7f39C581F595B53c5cb19bD0b3f8dA6c935E2Ca0 | [Etherscan](https://etherscan.io/address/0x7f39C581F595B53c5cb19bD0b3f8dA6c935E2Ca0) |
+| WithdrawalQueue | 0x889edC2eDab5f40e902b864aD4d7AdE8E412F9B1 | [Etherscan](https://etherscan.io/address/0x889edC2eDab5f40e902b864aD4d7AdE8E412F9B1) |
+| Governance (Aragon Agent) | 0x3e40D73EB977Dc6a537aF587D48316feE66E9C8c | [Etherscan](https://etherscan.io/address/0x3e40D73EB977Dc6a537aF587D48316feE66E9C8c) |
+| Governance (Aragon Voting) | 0x2e59A20f205bB85a89C53f1936454680651E618e | [Etherscan](https://etherscan.io/address/0x2e59A20f205bB85a89C53f1936454680651E618e) |
+| NodeOperatorsRegistry | 0x55032650b14df07b85bF18A3a3eC8E0Af2e028d5 | [Etherscan](https://etherscan.io/address/0x55032650b14df07b85bF18A3a3eC8E0Af2e028d5) |
+| InsuranceFund | 0x8B3f33234ABD88493c0Cd28De33D583B70beDe35 | [Etherscan](https://etherscan.io/address/0x8B3f33234ABD88493c0Cd28De33D583B70beDe35) |
+

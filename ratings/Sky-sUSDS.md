@@ -3,7 +3,9 @@
 **Rating Date**: 2026-02-12
 **Final Grade**: BB+
 **Total Score**: 806.8/900 points
-**Framework**: Staking Rewards DeFi Protocol Rating Framework v1.0-alpha
+**Framework**: Staking Rewards DeFi Protocol Rating Framework v0.1-alpha
+**Product Type**: Vault
+**Chain**: Ethereum
 
 ---
 
@@ -305,3 +307,12 @@
 | **TOTAL** | | **806.8** | **900** | **879.0** |
 
 ---
+
+## Smart Contract Addresses
+
+| Role | Address | Explorer Link |
+|------|---------|---------------|
+| VaultContract (sUSDS) | 0xa3931d71877C0E7a3148CB7Eb4463524FEc27fbD | [Etherscan](https://etherscan.io/address/0xa3931d71877C0E7a3148CB7Eb4463524FEc27fbD) |
+| USDS Token | 0xdC035D45d973E3EC169d2276DDab16f1e407384F | [Etherscan](https://etherscan.io/address/0xdC035D45d973E3EC169d2276DDab16f1e407384F) |
+| GSM (Governance Security Module) | 0x9eF05f7F6deB616fd37aC3c959a2dDD25A108B90 | [Etherscan](https://etherscan.io/address/0x9eF05f7F6deB616fd37aC3c959a2dDD25A108B90) |
+

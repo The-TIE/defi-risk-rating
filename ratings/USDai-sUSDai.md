@@ -1,8 +1,10 @@
 # USD.ai - sUSDai Risk Rating
 
-**Rating Date**: 2026-04-16 (updated 2026-04-22 with on-chain verification)
+**Rating Date**: 2026-04-16
 **Final Grade**: CCC-
-**Total Score**: 489.9/900 points (Potential: 794.9/900)
+**Total Score**: 489.9/900 points
+**Product Type**: Vault
+**Chain**: Arbitrum
 **Framework**: Staking Rewards DeFi Protocol Rating Framework v0.1-beta
 
 ---
@@ -241,4 +243,23 @@
 | **TOTAL** | | | | **489.9** | **900** | **54.4%** |
 
 ---
+
+## Smart Contract Addresses
+
+| Role | Address | Explorer Link |
+|------|---------|---------------|
+| VaultContract (sUSDai) | 0x0B2b2B2076d95dda7817e785989fE353fe955ef9 | https://arbiscan.io/address/0x0B2b2B2076d95dda7817e785989fE353fe955ef9 |
+| USDai Token | 0x0A1a1A107E45b7Ced86833863f482BC5f4ed82EF | https://arbiscan.io/address/0x0A1a1A107E45b7Ced86833863f482BC5f4ed82EF |
+| CHIP Governance Token | 0x0C1c1C109FE34733fca54b82d7B46B75CFb71F6e | https://arbiscan.io/address/0x0C1c1C109FE34733fca54b82d7B46B75CFb71F6e |
+| Oracle (Price Oracle) | 0xd40a5298c6fCeD81eB5da8bB1F9328b16f741EBc | https://arbiscan.io/address/0xd40a5298c6fCeD81eB5da8bB1F9328b16f741EBc |
+| GovernanceTimelock (Chip) | 0x0EEC1EE03ADD82342a6ac68A9C5cf62CB2398221 | https://arbiscan.io/address/0x0EEC1EE03ADD82342a6ac68A9C5cf62CB2398221 |
+| UpgradeTimelock (ProxyAdmin owner) | 0x0eEA1ee08611FF4a4e83bFE3916712751995639b | https://arbiscan.io/address/0x0eEA1ee08611FF4a4e83bFE3916712751995639b |
+| ChipGovernor | 0x0DDC1DD03C58E425f96567679b52F349dB847b26 | https://arbiscan.io/address/0x0DDC1DD03C58E425f96567679b52F349dB847b26 |
+| STRATEGY_ADMIN Safe (3-of-4) | 0xe7e53f940f8242fec57cbe88054463d4944b3670 | https://arbiscan.io/address/0xe7e53f940f8242fec57cbe88054463d4944b3670 |
+| DEFAULT_ADMIN Safe (3-of-3) | 0x5f0bc72fb5952b2f3f2e11404398ed507b25841f | https://arbiscan.io/address/0x5f0bc72fb5952b2f3f2e11404398ed507b25841f |
+| sUSDai ProxyAdmin | 0x0b3296b6f50611b28d466a6d5a49754dad4d8d9f | https://arbiscan.io/address/0x0b3296b6f50611b28d466a6d5a49754dad4d8d9f |
+| USDai ProxyAdmin | 0x2ddf39c731377adcfa7f2a056ac60a8a81aadc3c | https://arbiscan.io/address/0x2ddf39c731377adcfa7f2a056ac60a8a81aadc3c |
+| LoanRouter | 0x0C2ED170F2bB1DF1a44292Ad621B577b3C9597D1 | https://arbiscan.io/address/0x0C2ED170F2bB1DF1a44292Ad621B577b3C9597D1 |
+| DepositTimelock | 0x0D710CC05f34d2eaD9fbA3c78d53d76a0623c9F8 | https://arbiscan.io/address/0x0D710CC05f34d2eaD9fbA3c78d53d76a0623c9F8 |
+| BaseYieldEscrow | 0x9Ddfd49AC4689CF894203794d792dcB38E4b1A9E | https://arbiscan.io/address/0x9Ddfd49AC4689CF894203794d792dcB38E4b1A9E |
 

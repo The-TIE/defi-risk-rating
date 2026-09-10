@@ -4,6 +4,8 @@
 **Final Grade**: BBB+
 **Total Score**: 835.6/900 points
 **Framework**: Staking Rewards DeFi Protocol Rating Framework v0.1-alpha
+**Product Type**: Lending
+**Chain**: Ethereum
 
 ---
 
@@ -91,7 +93,7 @@
 | Code | Question | Answer Summary | Current | Potential | Classification | Evidence |
 |------|----------|----------------|---------|-----------|----------------|----------|
 | ST-C-01 | Which assets are accepted as collateral and how are they risk rated? | weETH is used as collateral to borrow WETH and stablecoins. Standard LTV 77.5%, E-Mode ETH-correlated 93% LTV. Aave governance explicitly noted weETH is "a higher-risk asset in various ways: architectural, economic, governance, access control, and dependency" vs wstETH. Risk-tiered with lower default LTV than wstETH. Established large-cap asset ($4.95B on Aave, $2.8B+ ether.fi TVL). | 9 | 9 | - | [P2] [weETH Risk Parameters](https://governance.aave.com/t/arfc-weeth-risk-parameter-adjustment/20167), [P0] Reserve data: LTV 77.5%, E-Mode 93% |
-| ST-C-02 | How did each collateral behave versus its underlying during past stress or depegs? | **Untested under token-specific stress.** weETH has maintained its exchange rate to eETH through generic market crashes (Feb 2025, Feb 2026), but has never been through a token-specific stress event comparable to Lido's July 2025 mass exit (235k+ stETH queued, 0.3-0.6% depeg, 16+ day withdrawal queues). The weETH/eETH rate increases monotonically by design, but secondary market liquidity under severe redemption pressure is untested. ether.fi launched 2023 vs Lido 2020 -- significantly less battle-testing history. Per scoring principles: demonstrated resilience must score higher than untested. | 3 | 3 | **Non-Improvable** | [P1] [ether.fi Technical Docs](https://etherfi.gitbook.io/etherfi/ether.fi-whitepaper/technical-documentation), [P3] [DeFiLlama ether.fi](https://defillama.com/protocol/ether.fi-stake), [P4] [Etherfi eETH Rating](Etherfi-eETH.md) |
+| ST-C-02 | How did each collateral behave versus its underlying during past stress or depegs? | **Untested under token-specific stress.** weETH has maintained its exchange rate to eETH through generic market crashes (Feb 2025, Feb 2026), but has never been through a token-specific stress event comparable to Lido's July 2025 mass exit (235k+ stETH queued, 0.3-0.6% depeg, 16+ day withdrawal queues). The weETH/eETH rate increases monotonically by design, but secondary market liquidity under severe redemption pressure is untested. ether.fi launched 2023 vs Lido 2020 -- significantly less battle-testing history. Per scoring principles: demonstrated resilience must score higher than untested. | 3 | 3 | **Non-Improvable** | [P1] [ether.fi Technical Docs](https://etherfi.gitbook.io/etherfi/ether.fi-whitepaper/technical-documentation), [P3] [DeFiLlama ether.fi](https://defillama.com/protocol/ether.fi-stake), [P4] [Etherfi eETH Rating](../ratings/Etherfi-eETH-Rating.md) |
 | ST-C-03 | How is validator or slashing risk handled for staking-based collaterals? | **weETH carries additional EigenLayer restaking slashing risk beyond ETH consensus slashing.** ether.fi uses DVT (Distributed Validator Technology) operators registered in a role registry. EigenLayer slashing (launched April 2025) means if AVS validators misbehave, restaked ETH can be slashed -- losses socialized across eETH holders. ether.fi has Certora audit specifically for EigenLayer slashing (Apr 2025). Operator diversification exists but less mature than Lido's 600+ operators. Conservative LTV (77.5% standard vs wstETH's 78.5%) partly accounts for this extra risk layer. | 3 | 3 | **Non-Improvable** | [P1] [ether.fi Technical Docs](https://etherfi.gitbook.io/etherfi/ether.fi-whitepaper/technical-documentation), [P1] [Certora EigenLayer Slashing Audit Apr 2025](https://github.com/etherfi-protocol/smart-contracts/tree/master/audits), [P1] [EigenLayer Slashing](https://docs.eigenlayer.xyz/eigenlayer/concepts/slashing) |
 | ST-C-04 | What share of TVL relies on bridged or wrapped assets? | weETH is a native Ethereum wrapped representation of eETH -- no bridge risk. Wrapping is an on-chain operation via ether.fi's LiquidityPool contract. All native to Ethereum. | 9 | 9 | - | [P0] [Etherscan weETH](https://etherscan.io/address/0xCd5fE23C85820F7B72D0926FC9b05b43E359b7ee) |
 
@@ -284,4 +286,16 @@
 | **TOTAL** | | | | **835.6** | **900** | **92.8%** |
 
 ---
+
+## Smart Contract Addresses
+
+| Role | Address | Explorer Link |
+|------|---------|---------------|
+| LendingPool | 0x87870Bca3F3fD6335C3F4ce8392D69350B4fA4E2 | https://etherscan.io/address/0x87870bca3f3fd6335c3f4ce8392d69350b4fa4e2 |
+| aEthweETH (aToken) | 0xBdfa7b7893081B35Fb54027489e2Bc7A38275129 | https://etherscan.io/token/0xbdfa7b7893081b35fb54027489e2bc7a38275129 |
+| weETH Token | 0xCd5fE23C85820F7B72D0926FC9b05b43E359b7ee | https://etherscan.io/address/0xCd5fE23C85820F7B72D0926FC9b05b43E359b7ee |
+| PoolAddressesProvider | 0x2f39d218133AFaB8F2B819B1066c7E434Ad94E9e | https://etherscan.io/address/0x2f39d218133AFaB8F2B819B1066c7E434Ad94E9e |
+| PoolConfigurator | 0x64b761D848206f447Fe2dd461b0c635Ec39EbB27 | https://etherscan.io/address/0x64b761D848206f447Fe2dd461b0c635Ec39EbB27 |
+| ACLManager | 0xc2aaCf6553D20d1e9571216fA22D988C6Ceddd42 | https://etherscan.io/address/0xc2aaCf6553D20d1e9571216fA22D988C6Ceddd42 |
+| Collector | 0x464C71f6c2F760DdA6093dCB91C24c39e5d6e18c | https://etherscan.io/address/0x464C71f6c2F760DdA6093dCB91C24c39e5d6e18c |
 

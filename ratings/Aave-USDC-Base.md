@@ -3,6 +3,8 @@
 **Rating Date**: 2026-06-12
 **Final Grade**: BBB
 **Total Score**: 832.65/900 points
+**Product Type**: Lending
+**Chain**: Base
 **Framework**: Staking Rewards DeFi Protocol Rating Framework v0.1-gamma
 
 ---
@@ -289,4 +291,18 @@
 | **TOTAL** | | | | **832.65** | **900** | **92.5%** |
 
 ---
+
+## Smart Contract Addresses
+
+| Role | Address | Explorer Link |
+|------|---------|---------------|
+| LendingPool | 0xA238Dd80C259a72e81d7e4664a9801593F98d1c5 | [Basescan](https://basescan.org/address/0xA238Dd80C259a72e81d7e4664a9801593F98d1c5) |
+| PoolAddressesProvider | 0xe20fCBdBfFC4Dd138cE8b2E6FBb6CB49777ad64D | [Basescan](https://basescan.org/address/0xe20fCBdBfFC4Dd138cE8b2E6FBb6CB49777ad64D) |
+| PoolConfigurator | 0x5731a04B1E775f0fdd454Bf70f3335886e9A96be | [Basescan](https://basescan.org/address/0x5731a04B1E775f0fdd454Bf70f3335886e9A96be) |
+| ACLManager | 0x43955b0899Ab7232E3a454cf84AedD22Ad46FD33 | [Basescan](https://basescan.org/address/0x43955b0899Ab7232E3a454cf84AedD22Ad46FD33) |
+| Oracle | 0x2Cc0Fc26eD4563A5ce5e8bdcfe1A2878676Ae156 | [Basescan](https://basescan.org/address/0x2Cc0Fc26eD4563A5ce5e8bdcfe1A2878676Ae156) |
+| aBasUSDC | 0x4e65fE4DbA92790696d040ac24Aa414708F5c0AB | [Basescan](https://basescan.org/address/0x4e65fE4DbA92790696d040ac24Aa414708F5c0AB) |
+| AaveProtocolDataProvider | 0x0F43731EB8d45A581f4a36DD74F5f358bc90C73A | [Basescan](https://basescan.org/address/0x0F43731EB8d45A581f4a36DD74F5f358bc90C73A) |
+| Collector (Treasury) | 0xBA9424d650A4F5c80a0dA641254d1AcCE2A37057 | [Basescan](https://basescan.org/address/0xBA9424d650A4F5c80a0dA641254d1AcCE2A37057) |
+| USDC Token (native) | 0x833589fcd6edb6e08f4c7c32d4f71b54bda02913 | [Basescan](https://basescan.org/address/0x833589fcd6edb6e08f4c7c32d4f71b54bda02913) |
 
