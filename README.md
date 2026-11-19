@@ -6,6 +6,21 @@ If you believe a published rating is inaccurate, outdated, or missing important 
 
 ---
 
+## Rating Framework
+
+Ratings are scored against the question framework published in this repository:
+
+| Version | File | Status |
+|---|---|---|
+| v0.1-delta | [framework_v0.1-delta.md](framework_v0.1-delta.md) | Current |
+| v0.1-gamma | [framework_v0.1-gamma.md](framework_v0.1-gamma.md) | Previous |
+| v0.1-beta | [framework_v0.1-beta.md](framework_v0.1-beta.md) | Previous |
+| v0.1-alpha | [framework_v0.1-alpha.md](framework_v0.1-alpha.md) | Previous |
+
+Each rating states the framework version it was scored against. When you cite a **Framework Question** in a challenge, use the question from that version.
+
+---
+
 ## How to Challenge a Rating
 
 To challenge a rating, please open a **GitHub Issue** in this repository and follow the process below.
